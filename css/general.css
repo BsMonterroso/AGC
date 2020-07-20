@@ -1,0 +1,44 @@
+
+*{
+    margin:0;
+    padding:0;
+    text-decoration:none;
+    font-family:sans-serif; 
+}
+
+.body100{
+    width: 100%;
+    height: auto;
+}
+.body{
+
+    font-size: 10px;
+
+    width: 1200px;
+    height: auto;
+    margin: auto;
+    overflow: hidden;
+    position: relative;
+}
+/* PALETA DE COLORES */
+:root{
+    --colorBase: #035aa6;
+    --colorTexto: gray;
+}
+/* DIMENCIONES DE OBJETOS DE LA PÀGINA */
+:root{
+    --sizeParrafo: 2em;
+    --sizeTitulo: 4em;
+    --siseSubTitulo: 3em;
+}
+
+
+
+/* GUIA DE DESARROLADORES */
+
+.desColor{
+    background-color: red;
+}
+.desColor1{
+    background-color: blue;
+}
