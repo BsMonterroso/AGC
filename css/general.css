@@ -22,9 +22,13 @@
 }
 /* PALETA DE COLORES */
 :root{
-    --colorBase: #035aa6;
-    --colorBase2: #3d545f;
-    --colorTexto: gray;
+    --colorBase: #283149;
+    --colorBase2: #404b69;
+    --colorBase3: #f73859;
+    --colorBase4: #dbedf3;
+
+    --colorTexto:  #848484;
+    --colorTextoFuerte: #6D6D6D;
 }
 /* DIMENCIONES DE OBJETOS DE LA PÀGINA */
 :root{
