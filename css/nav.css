@@ -1,4 +1,5 @@
 *{
+<<<<<<< HEAD
     margin: 0;
     padding: 0;
 }
@@ -18,4 +19,154 @@
     width: 100%;
     height: 60px;
     background-color: #ffffff   ;
+=======
+    margin:0;
+    padding:0;
+    text-decoration:none;
+    font-family:sans-serif; 
+}
+.rm_barrraContanto{
+    width: 100%;
+    height: 40px;
+    padding-top: 13px;
+    background-color: var(--colorBase);
+}
+
+.rm_contactoNav{
+    width: 440px;
+    overflow: hidden;
+    margin: auto;
+}
+
+.icoTelefono{
+    width: 25px;
+    float: left;
+    margin-right: 15px;
+}
+
+.tituloContacto{
+    float: left;
+    font-size: 25px;
+    color: var(--colorBase2);
+    margin-right: 5px;
+    font-weight: 900;
+}
+
+/* -------------SECCIÒN DEL NAVEGADOR */
+.imgBannerIndex{
+    width: 100%;
+    height: 600px;
+    background-image: url(../imagen/banners/bannerIndex2.jpg);
+    background-size: cover;
+    background-position: bottom;
+}
+
+.rm_navEmpresa{
+    width: 100%;
+    height: 250px;
+    background-color:rgba(64, 75, 105,0.5);
+}
+
+.imgEmpresa{
+    width: 200px;
+    float:left;
+    margin-top: 30px;
+}
+
+.nav{
+    font-size: 10px;
+    float: right;
+    margin-top: 20px;
+}
+.nav > a > li{
+    display: block;
+    float: left;
+    margin-left: 1em;
+    padding: 0.3em;
+    /* background-color: var(--colorBase3); */
+    color: #ffffff;
+    font-size: 2em;
+}
+.liHome{
+    /* background-color:var(--colorResaltante); */
+    border-bottom: 0.15em solid var(--colorBase2) ;
+}
+.nav>a>li:hover{
+    background-color:var(--colorResaltante);
+    transition: 0.5s;
+}
+
+/* SECCIÒN DE MENSAJES DEL BANNER */
+.mensajeBannerIndex{
+    width: 800px;
+    margin-top: 100px;
+    padding: 20px;
+/*     background-color:rgba(64, 75, 105,0.7); */
+}
+.tituloBannerIndex2{
+    width: 750px;
+    font-size: 45px;
+    color: #ffffff;
+}
+.tituloBannerIndex3{
+    width: 600px;
+    font-size: 20px;
+    color: #ffffff;
+}
+
+.botonServices{
+    width: 80px;
+    display: block;
+    margin-top: 20px;
+    padding: 10px;
+    background-color: #F1C40F;
+    text-align: center;
+    border-radius: 3px;
+    color: var(--colorBase);
+    font-size: 15px;
+    font-weight: 900;
+}
+.botonServices:hover{
+    background-color: var(--colorBase);
+    color: #ffffff;
+}
+/* ----------------SECCIÓN DE BOTON FLOTANTE*/
+
+#cajaBotonFijo{
+    width: 300px;
+    height: 70px;
+    background-color: var(--colorResaltante);
+    border-radius: 10px 0px 0px 10px;
+    position: fixed;
+    top: 450px;
+    right: 0px;
+}
+.icoTelefonoFlotante{
+    width: 35px;
+    float: left;
+    margin-right: 15px;
+    margin: 20px 15px 0px 10px;
+}
+.tituloFlotante{
+    float: left;
+    color:#ffffff;
+    font-size: 35px;
+    margin-top: 15px;
+    font-weight: 900;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+.muestra{
+    height: 500px;
+>>>>>>> nav
 }

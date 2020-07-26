@@ -22,11 +22,22 @@
 }
 /* PALETA DE COLORES */
 :root{
+<<<<<<< HEAD
     --colorBase: #283149;
     --colorBase2: #404b69;
     --colorBase3: #f73859;
     --colorBase4: #dbedf3;
 
+=======
+    /* --colorBase:  #F2CE1B; */
+    --colorBase:  #283149;
+    --colorBase2: #F1C40F;
+    --colorBase3: #A6937C;
+    --colorBase4: #5D7A8C;
+    --colorBase5: #B4C4D9;
+
+    --colorResaltante: #ED1D24;
+>>>>>>> nav
     --colorTexto:  #848484;
     --colorTextoFuerte: #6D6D6D;
 }
