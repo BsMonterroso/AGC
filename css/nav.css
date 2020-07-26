@@ -26,7 +26,7 @@
 .tituloContacto{
     float: left;
     font-size: 25px;
-    color: #ffffff;
+    color: var(--colorBase2);
     margin-right: 5px;
     font-weight: 900;
 }
@@ -68,7 +68,7 @@
 }
 .liHome{
     /* background-color:var(--colorResaltante); */
-    border-bottom: 0.15em solid var(--colorResaltante) ;
+    border-bottom: 0.15em solid var(--colorBase2) ;
 }
 .nav>a>li:hover{
     background-color:var(--colorResaltante);
