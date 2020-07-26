@@ -1,4 +1,3 @@
-
 *{
     margin:0;
     padding:0;
@@ -7,8 +6,8 @@
 }
 .rm_barrraContanto{
     width: 100%;
-    height: 35px;
-    padding-top: 10px;
+    height: 40px;
+    padding-top: 13px;
     background-color: var(--colorBase);
 }
 
@@ -26,12 +25,13 @@
 
 .tituloContacto{
     float: left;
-    font-size: 20px;
-    color: var(--colorBase3);
+    font-size: 25px;
+    color: #ffffff;
     margin-right: 5px;
+    font-weight: 900;
 }
 
-/* SECCIÒN DEL NAVEGADOR */
+/* -------------SECCIÒN DEL NAVEGADOR */
 .imgBannerIndex{
     width: 100%;
     height: 600px;
@@ -57,16 +57,21 @@
     float: right;
     margin-top: 20px;
 }
-.nav>a>li{
+.nav > a > li{
     display: block;
     float: left;
-    padding: 0.5em 0.5em 0.5em 0.5em;
+    margin-left: 1em;
+    padding: 0.3em;
     /* background-color: var(--colorBase3); */
     color: #ffffff;
     font-size: 2em;
 }
+.liHome{
+    /* background-color:var(--colorResaltante); */
+    border-bottom: 0.15em solid var(--colorResaltante) ;
+}
 .nav>a>li:hover{
-    background-color:var(--colorBase3);
+    background-color:var(--colorResaltante);
     transition: 0.5s;
 }
 
@@ -93,12 +98,50 @@
     display: block;
     margin-top: 20px;
     padding: 10px;
-    background-color: var(--colorBase3);
+    background-color: #F1C40F;
     text-align: center;
     border-radius: 3px;
-    color: #ffffff;
+    color: var(--colorBase);
     font-size: 15px;
+    font-weight: 900;
 }
+.botonServices:hover{
+    background-color: var(--colorBase);
+    color: #ffffff;
+}
+/* ----------------SECCIÓN DE BOTON FLOTANTE*/
+
+#cajaBotonFijo{
+    width: 300px;
+    height: 70px;
+    background-color: var(--colorResaltante);
+    border-radius: 10px 0px 0px 10px;
+    position: fixed;
+    top: 450px;
+    right: 0px;
+}
+.icoTelefonoFlotante{
+    width: 35px;
+    float: left;
+    margin-right: 15px;
+    margin: 20px 15px 0px 10px;
+}
+.tituloFlotante{
+    float: left;
+    color:#ffffff;
+    font-size: 35px;
+    margin-top: 15px;
+    font-weight: 900;
+}
+
+
+
+
+
+
+
+
+
 
 
 
