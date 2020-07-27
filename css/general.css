@@ -3,7 +3,7 @@
     margin:0;
     padding:0;
     text-decoration:none;
-    font-family:sans-serif; 
+    font-family: 'Lato', sans-serif;
 }
 
 .body100{
@@ -22,7 +22,7 @@
 }
 /* PALETA DE COLORES */
 :root{
-    --colorBase:  #283149;
+    --colorBase:  #00355B;
     --colorBase2: #F1C40F;
     --colorBase3: #A6937C;
     --colorBase4: #5D7A8C;

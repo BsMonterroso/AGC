@@ -1,0 +1,45 @@
+.tituloServiciosIndex{
+    color: var(--colorTexto);
+    font-size: 3.5em;
+    padding: 1em 1em 1em 1em;
+}
+.txtDecoracion{
+    color: var(--colorBase2);
+}
+.cajaDeServicios{
+    padding: 1em;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+.serviciosIndex{
+    padding: 5em 0em 5em 0em;
+}
+.cajaServicio{
+    width: 35em;
+    height: 50em;
+    background-color: #FAFAFA;
+}    
+.imgServicio{
+    width: 100%;
+    height: 30em;
+    background-color: blue;
+}
+.imgServicio img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    object-position: right;
+}
+.cajaServicio > h2{
+    margin: 1em 1em 1em 1em;
+    font-size: 2em;
+    color: var(--colorTexto);
+    text-align: center;
+}
+.cajaServicio > p{
+    margin: 1em 2em 1em 2em;
+    font-size: 1.3em;
+    color: var(--colorTexto);
+    text-align: justify;
+}
