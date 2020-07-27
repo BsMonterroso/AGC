@@ -1,25 +1,4 @@
 *{
-<<<<<<< HEAD
-    margin: 0;
-    padding: 0;
-}
-
-.rm_barrraContanto{
-    width: 100%;
-    height: 35px;
-    background-color: var(--colorBase);
-    padding-top: 15px;
-}
-.rm_contactoNav{
-    font-size: 18px;
-    color: #ffffff;
-    text-align: center;
-}
-.rm_navEmpresa{
-    width: 100%;
-    height: 60px;
-    background-color: #ffffff   ;
-=======
     margin:0;
     padding:0;
     text-decoration:none;
@@ -168,5 +147,4 @@
 
 .muestra{
     height: 500px;
->>>>>>> nav
 }
