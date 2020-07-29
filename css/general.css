@@ -67,3 +67,12 @@
         position: relative;
     }
 }
+
+/* ------- SECCIÓN DE RESPONSIBE */
+@media only screen and (max-width:767px) {
+
+    .body{
+        font-size: 10px;
+        width: 95%;
+    }
+}

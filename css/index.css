@@ -40,7 +40,7 @@
 .cajaServicio > h2{
     margin: 1em 1em 1em 1em;
     font-size: 2em;
-    color: var(--colorTexto);
+    color: var(--colorBase);
     text-align: center;
 }
 .cajaServicio > p{
@@ -100,4 +100,33 @@
         height: 60em;
     }  
     
+}
+/* -----------SECCIÓN DE RESPONSI MOVIL */
+@media only screen and (max-width:767px) {
+
+    .cajaDeServicios{
+        width: 100%;
+        flex-direction: column;
+        padding: 0;
+    }
+    .cajaServicio{
+        margin: auto;
+        width: 90%;
+        height: 60em;
+    }
+    .cajaServicio > p{
+        margin: 1em 1em 1em 1em;
+        font-size: 1.3em;
+    }
+    .cajaServiciosEspeciales{
+        flex-direction: column;
+        margin-bottom: 3em;
+    }
+    .especialidadIndex{
+        margin: auto;
+        margin-bottom: 5em;
+    }
+
+
+
 }
