@@ -1,3 +1,9 @@
+*{
+    margin:0;
+    padding:0;
+    text-decoration:none;
+    font-family: 'Roboto', sans-serif;
+}
 .tituloServiciosIndex{
     color: var(--colorTexto);
     font-size: 3.5em;
@@ -42,4 +48,56 @@
     font-size: 1.3em;
     color: var(--colorTexto);
     text-align: justify;
+}
+
+/* ------SECCIÓN DE SERVICIOS ESPECIALES */
+.bodyServiciosEspeciales{
+    padding-top: 5em;
+    padding-bottom: 10em;
+}
+.cajaServiciosEspeciales{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    margin-bottom: 10em;
+}
+.especialidadIndex{
+    width: 30em;
+    height: 10em;
+    background-color: #FAFAFA ;
+}
+.icoEspecialidad{
+    width: 9em;
+    float: left;
+}
+.cajaDescripcionServicios{
+    padding: 1em 1em 1em 1em;
+    box-sizing: border-box;
+    float: left;
+}
+.tituloEspesialidad{
+    float: left;
+    margin-bottom: 0.3em;
+}
+.tituloEspesialidad{
+    font-size: 1.6em;
+    color: var(--colorTexto);
+}
+.pasosServisiosEspeciales{
+    margin-left: 2em;
+}
+.pasosServisiosEspeciales > li{
+    color: var(--colorTexto);
+}
+
+
+
+/* ------SECCIÓN DE RESPONSIBE */
+@media only screen and (max-width:1360px) {
+ 
+    .cajaServicio{
+        width: 30em;
+        height: 60em;
+    }  
+    
 }

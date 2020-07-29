@@ -1,9 +1,8 @@
-
 *{
     margin:0;
     padding:0;
     text-decoration:none;
-    font-family: 'Lato', sans-serif;
+    font-family: 'Roboto', sans-serif;
 }
 
 .body100{
@@ -29,7 +28,7 @@
     --colorBase5: #B4C4D9;
 
     --colorResaltante: #ED1D24;
-    --colorTexto:  #848484;
+    --colorTexto:  #272b35;
     --colorTextoFuerte: #6D6D6D;
 }
 /* DIMENCIONES DE OBJETOS DE LA PÀGINA */
@@ -48,4 +47,23 @@
 }
 .desColor1{
     background-color: blue;
+}
+
+
+/* -------SECCIÓN DE RESPONSIVE-------- */
+@media only screen and (max-width:1360px) {
+    .body100{
+        width: 100%;
+        height: auto;
+    }
+    .body{
+    
+        font-size: 10px;
+    
+        width: 1000px;
+        height: auto;
+        margin: auto;
+        overflow: hidden;
+        position: relative;
+    }
 }
