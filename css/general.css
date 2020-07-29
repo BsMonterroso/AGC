@@ -48,6 +48,22 @@
 .desColor1{
     background-color: blue;
 }
+/* SECCION DE MANTENIMIENTO */
+.bodyMantenimiento{
+    height: 800px;
+}
+.imgMantenimiento{
+    display: block;
+    margin: auto;
+}
+.tituloMantenimiento{
+    text-align: center;
+    color: var(--colorTexto);
+    font-size: 3em;
+}
+.ocultar{
+    display: none;
+}
 
 
 /* -------SECCIÓN DE RESPONSIVE-------- */
