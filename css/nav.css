@@ -76,7 +76,7 @@
 /* SECCIÒN DE MENSAJES DEL BANNER */
 .mensajeBannerIndex{
     width: 800px;
-    margin-top: 100px;
+    margin-top: 50px;
     padding: 20px;
 /*     background-color:rgba(64, 75, 105,0.7); */
 }
@@ -141,12 +141,12 @@
     width: 40px;
     margin-left: 10px;
     margin-top: 5px;
+    display: none;
 }
 .rm_navEmpresa_r{
-    display: block;
+    display: none;
     width: 100%;
     height: auto;
-    background-color:rgba(0, 53, 91,0.0);
     position: absolute;
 }
 .nav_r{
@@ -157,11 +157,9 @@
 }
 .nav_r > a > li{
     display: block;
-    float: left;
     margin-left: 1em;
     margin-right: 1em;
-    padding: 0.3em;
-    /* background-color: var(--colorBase3); */
+    padding-top: 20em;
     color: var(--colorBase);
     font-size: 2em;
 }
@@ -179,28 +177,59 @@
 
 /* ------- SECCIÓN DE RESPONSIBE */
 @media only screen and (max-width:767px) {
+    
+    .rm_navEmpresa_r{
+        width: 80%;
+        display: block;
+        position: absolute;
+        z-index: 100;
+    }
+    .imgMenu{
+        display: block;
+    }
+    .nav_r{
+        width: 100%;
+        display: none;
+    }
+    .nav_r > a > li{
+        display: block;
+        float: none;
+        margin-left: 1em;
+        padding: 0.8em;
+        /* background-color: var(--colorBase3); */
+        color: var(--colorBase);
+        font-size: 2em;
+    }
+
+
+
+
     .rm_barrraContanto{
         height: 50px;
+        position: fixed;
+        z-index: 100;
     }
     .imgBannerIndex{
         width: 100%;
         height: 700px;
     }
     .tituloContacto{
-        font-size: 20px;
+        font-size: 23px;
         color: #ffffff;
         font-weight: 900;
-        text-align: center;
+        text-align: end;
+        margin-right: 10px;
+        margin-top: 5px;
     }
     .nav{
-        display: none;
+        display:none;
     }
     .imgEmpresa{
         width: 90%;
         float:none;
         display: block;
         margin: auto;
-        margin-top: 20px;
+        margin-top: 60px;
     }
     .mensajeBannerIndex{
         width: 100%;
@@ -219,14 +248,29 @@
 
 
     /* SECCIÓN DE BOTO FLOTANTE */
+    .icoResponsive{
+        width: auto;
+        height: auto;
+        position: fixed;
+        bottom: 0px;
+        right: 0;
+        z-index: 100;
+        padding-bottom: 10px;
+        padding-right: 10px;
+    }
     #cajaBotonFijo{
         font-size: 10px;
         width: 7em;
         height: 7em;
         background-color: var(--colorResaltante);
-        border-radius: 1em 0em 1em 0em;
-        position: fixed;
-        top: 5em;
+        border-radius:100px;
+        position: static;
+    }
+    .icoTelefonoFlotante{
+        width: 3.5em;
+        float: left;
+        margin-right: 0em;
+        margin: 2em 1.5em 0em 1.5em;
     }
     .tituloFlotante{
         display: none;
