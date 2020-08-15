@@ -1,0 +1,32 @@
+*{
+    margin:0;
+    padding:0;
+    text-decoration:none;
+    font-family: 'Roboto', sans-serif;
+}
+
+.bs_texto_Principal {
+    padding-top: 5px;
+    font-size: 1.8em;
+    color: var(--colorBase);
+}
+
+.bs_subtitulo{
+    padding-top: 8px;
+    font-size:0.8em ;
+    
+}
+.informacion_nosotros{
+
+    font-size: 1em;
+    padding-bottom: 1em;
+}
+/*SEXXION SEL VIDEO*/
+.video{
+    padding-top: 1em;
+    font-size: 1em;
+    color: var(--colorBase);
+}
+.video_2019{
+    padding-bottom: 2em;
+}
