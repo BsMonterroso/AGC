@@ -120,6 +120,7 @@
     background: var(--colorBase3);
     color: #fff;
     font-size: 12px;
+    text-align: center;
 }
 
 @media screen and (max-width: 1000px) {

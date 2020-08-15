@@ -4,25 +4,33 @@
     text-decoration:none;
     font-family: 'Roboto', sans-serif;
 }
+.general_texto{
+    margin-top: 0.5em;
+    width: 100%;
+    height: auto;
+    background-color:var(--colorBase6);
 
+}
 .bs_texto_Principal {
     padding-top: 5px;
     font-size: 1.8em;
     color: var(--colorBase);
+    
 }
 
 .bs_subtitulo{
-    padding-top: 8px;
-    font-size:0.8em ;
-    
+    padding-top: 1em;
+    font-size:1em ;
+    text-align: center;
 }
 .informacion_nosotros{
-
+    padding-top:5px;
     font-size: 1em;
     padding-bottom: 1em;
 }
 /*SEXXION SEL VIDEO*/
-.video{
+
+.video{ 
     padding-top: 1em;
     font-size: 1em;
     color: var(--colorBase);
@@ -30,3 +38,4 @@
 .video_2019{
     padding-bottom: 2em;
 }
+
