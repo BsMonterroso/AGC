@@ -4,6 +4,27 @@
     text-decoration:none;
     font-family: 'Roboto', sans-serif;
 }
+
+
+/* SECCIÓN DE SERTIFICADOS DE LA EMPRES */
+
+.cajaDescripcionServicios{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+}
+.imgSertificado{
+    width: 200px;
+border: 1px solid black;
+}
+
+
+
+
+
+
+/* SECCIÓN DE SERVICIOS MAYORES */
+
 .tituloServiciosIndex{
     color: var(--colorTexto);
     font-size: 3.5em;
