@@ -51,7 +51,6 @@
 .nav{
     font-size: 10px;
     float: right;
-    margin-top: 20px;
     background-color: var(--colorBase2);
 }
 .nav > a > li{
@@ -133,7 +132,7 @@
     float: left;
     color:#ffffff;
     font-size: 3.5em;
-    margin-top: 0.5em;
+    margin-top: 0.4em;
     font-weight: 900;
 }
 

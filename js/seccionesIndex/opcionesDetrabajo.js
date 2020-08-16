@@ -38,16 +38,14 @@ function boton2(){
 
 function boton3(){
 
-    opc1_1.classList.add('desactivado');
-    opc1_2.classList.add('desactivado');
-    opc1_3.classList.remove('desactivado');
-
     opcion_1.classList.remove('opcionSelecionado');
     opcion_2.classList.remove('opcionSelecionado');
     opcion_3.classList.add('opcionSelecionado');
 
 
-
+    opc1_1.classList.add('desactivado');
+    opc1_2.classList.add('desactivado');
+    opc1_3.classList.remove('desactivado');
 };
 
 opcion_1.addEventListener("click", boton1,true);
