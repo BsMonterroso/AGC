@@ -28,6 +28,10 @@
     font-size: 1em;
     padding-bottom: 1em;
 }
+.imagen_nosotros img{
+  align-content: center;
+}
+
 /*SEXXION SEL VIDEO*/
 
 .video{ 
