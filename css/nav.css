@@ -118,7 +118,7 @@
     background-color: var(--colorResaltante);
     border-radius: 1em 0em 1em 0em;
     position: fixed;
-    top:60em;
+    top:70em;
     right: 0em;
     z-index: 100;
 }
