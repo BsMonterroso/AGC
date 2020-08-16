@@ -5,25 +5,62 @@
     font-family: 'Roboto', sans-serif;
 }
 
-
 /* SECCIÓN DE SERTIFICADOS DE LA EMPRES */
 
-.cajaDescripcionServicios{
-    display: flex;
-    flex-direction: column;
-    justify-content: space-evenly;
+.rm_linea{
+    width: 100%;
+    height: 2px;
+    margin-bottom: 50px;
+    background-color: var(--colorBase2);
 }
-.imgSertificado{
+
+.cajaDeSertificados{
+    padding-top: 20px;
+    padding-bottom: 50px;
+}
+.sertificado{
+    width: 48%;
+    float: left;
+}
+.imgS1{
     width: 200px;
-border: 1px solid black;
+    display: block;
+    margin: auto;
 }
 
-
-
-
+.imgS2{
+    width: 350px;
+    display: block;
+    margin: auto;
+}
+.newDate{
+    text-align: center;
+}
 
 
 /* SECCIÓN DE SERVICIOS MAYORES */
+.serviciosIndex{
+    padding: 5em 0em 5em 0em;
+}
+
+.cajaMenuOpciones{
+    width: 450px;
+    margin: auto;
+}
+.seccionOpciones{
+    width: auto;
+    overflow: hidden;
+    display: block;
+    margin: auto;
+}
+.liopcion{
+    display: block;
+    float: left;
+    margin: 23px 23px 50px 23px;
+    font-size:2em ;
+    cursor: pointer;
+    color:  #c3c3c3;
+    }
 
 .tituloServiciosIndex{
     color: var(--colorTexto);
@@ -34,17 +71,17 @@ border: 1px solid black;
     color: var(--colorBase2);
 }
 .cajaDeServicios{
-    padding: 1em;
     display: flex;
+    overflow: hidden;
+    width: 100%;
+    padding: 1em;
     flex-direction: row;
     justify-content: space-around;
 }
-.serviciosIndex{
-    padding: 5em 0em 5em 0em;
-}
+
 .cajaServicio{
     width: 35em;
-    height: 50em;
+    height: 60em;
     background-color: #FAFAFA;
 }    
 .imgServicio{
@@ -65,10 +102,23 @@ border: 1px solid black;
     text-align: center;
 }
 .cajaServicio > p{
-    margin: 1em 2em 1em 2em;
-    font-size: 1.5em;
+    margin: 1em 1em 1em 1em;
+    font-size: 1.7em;
     color: var(--colorTexto);
     text-align: justify;
+}
+
+
+.opcionSelecionado{
+    border-bottom: 1px solid var(--colorBase);
+    color: var(--colorTexto);
+    transition: 1s;
+}
+.activado{
+display: block;
+}
+.desactivado{
+    display: none;
 }
 
 /* ------SECCIÓN DE SERVICIOS ESPECIALES */
