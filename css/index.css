@@ -131,7 +131,7 @@ display: block;
     height: 600px;
     position: relative;
     float: left;
-    padding-right:1em;
+    padding-right:5em;
     box-sizing: border-box;
 }
 .ag_cajaTitulo{
@@ -149,6 +149,7 @@ display: block;
     font-size: 2em;
     margin-top: 10em;
     margin-left: 0.7em;
+    color: var(--colorTextoFuerte);
 }
 
 .ag_cajaDerecha{
