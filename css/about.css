@@ -28,11 +28,23 @@
     font-size: 1em;
     padding-bottom: 1em;
 }
+.imagen_nosotros{
+    display:flex;
+    justify-content: center;
+}
 .imagen_nosotros img{
-  align-content: center;
+    width: 40%;
+    height: 40%;
+    padding: 1em;
 }
 
 /*SEXXION SEL VIDEO*/
+ .body .video{
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-flow: column;
+ }
 
 .video{ 
     padding-top: 1em;
@@ -43,3 +55,21 @@
     padding-bottom: 2em;
 }
 
+
+/* -------SECCIÓN DE RESPONSIVE-------- */
+@media only screen and (max-width:1360px) {
+    .video_2019{
+        width: 100%;
+        height: auto;
+    }
+}
+
+/* ------- SECCIÓN DE RESPONSIBE */
+@media only screen and (max-width:767px) {
+
+    .video_2019{
+        width: 90%;
+        height: auto;
+
+    }
+}
