@@ -8,6 +8,9 @@
         <link href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet">
         <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,300;1,300&display=swap" rel="stylesheet">
         <link rel="stylesheet" href="css/index.css"> 
+        <link rel="stylesheet" href="css/estilos.css">
+         <link rel="stylesheet" href="css/mediaQuery.css">
+         <link rel="stylesheet" href="css/normalize.css">
         <meta>
 
         <link rel="icon" href="imagen/icono/ico_AGC.ico"> 
@@ -18,49 +21,95 @@
     </head>
     
     <body>
-        <!-- SECCIÒN DEL NAVEGADOR -->
-        <header>
-            <div class="rm_barrraContanto">
-                   <!--  <img class="icoTelefono" src="imagen/icono/llamada.svg" alt=""> -->
-                    <h1 class="tituloContacto">Emergency number: 800-327-7605</h1> 
-            </div>
-            <section class="body100 imgBannerIndex ocultar">
-                <nav class="rm_navEmpresa">
+        <!--------------------------- SECCIÒN DEL NAVEGADOR -->
+                <header>
+                    <div class="rm_barrraContanto">
+                        <!--  <img class="icoTelefono" src="imagen/icono/llamada.svg" alt=""> -->
+                        <nav class="rm_navEmpresa_r">
+                            <img class="imgMenu" src="imagen/imgUser/menu.svg" alt="">
+                            <ul class="nav_r">
+                                <a href="index.html"><li class="liHome">Home</li></a>
+                                <a href="about.html"><li>About</li></a>
+                                <a href="emergency.html"><li>Emergency</li></a>
+                                <a href="services.html"><li>Services</li></a>
+                                <a href="contacts.html"><li>Contact</li></a>
+                                </ul>
+                        </nav>
+        
+                        <h1 class="tituloContacto">Emergency : 800-327-7605</h1> 
+                    </div>
+                    
+                    <div class="icoResponsive">
+                        <div id="cajaBotonFijo">
+                        <img class="icoTelefonoFlotante" src="imagen/icono/llamada.svg" alt="">
+                        <span class="tituloFlotante">800-327-7605</span>
+                        </div>
+                    </div>
+                </header>
+        
+        <!-------------------------- SECCIÓN DEL BANNER CON NAVEGADOR -->
+        
+                <section class="body100 imgBannerIndex">
+                    <nav class="rm_navEmpresa">
+                        <div class="body">
+                            <img class="imgEmpresa" src="imagen/imgUser/logo_png.png">
+                            <ul class="nav">
+                                <a href="index.html"><li class="liHome">Home</li></a>
+                                <a href="about.html"><li>About</li></a>
+                                <a href="emergency.html"><li>Emergency</li></a>
+                                <a href="services.html"><li>Services</li></a>
+                                <a href="contacts.html"><li>Contact</li></a>
+                            </ul>
+                        </div>
+                    </nav>
+        
                     <div class="body">
-                        <img class="imgEmpresa" src="imagen/imgUser/logoAGC.jpg">
-                        <ul class="nav">
-                            <a href="index.html"><li class="liHome">Home</li></a>
-                            <a href="about.html"><li>About</li></a>
-                            <a href="emergency.html"><li>Emergency</li></a>
-                            <a href="services.html"><li>Services</li></a>
-                            <a href="contacts.html"><li>Contact</li></a>
-                        </ul>
+                        <div class="mensajeBannerIndex">
+                            <h1 class="tituloBannerIndex2">Immediate construction service</h1>
+                            <p class="tituloBannerIndex3">When an emergency occurs, we know that time is critical, that is why Accuracy are ready 24/7 all year round, you can be sure that Accuracy will restore your property with the highest standards protocol in the industry.</p>
+                            <a class="botonServices" href="#">Services</a>
+                        </div>
                     </div>
-                </nav>
-
-                <div class="body">
-                    <div class="mensajeBannerIndex">
-                        <h1 class="tituloBannerIndex2">Servicio de contrucción inmediata</h1>
-                        <p class="tituloBannerIndex3">Descricòn de la empresa y lo que da a conocer en la home page.</p>
-                        <a class="botonServices" href="#">Services</a>
-                    </div>
-                </div>
-
-            </section>
-
-                   <div id="cajaBotonFijo">
-                    <img class="icoTelefonoFlotante" src="imagen/icono/llamada.svg" alt="">
-                    <span class="tituloFlotante">800-327-7605</span>
-                   </div>
-
-        </header>
+                </section>
 
         <!-- SECCIÒN DEL BODY -->
 
-        <section class="body100">
-            <div class="body bodyMantenimiento">
-                <img class="imgMantenimiento" src="imagen/mantenimiento/wip.gif" alt="">
-                <h2 class="tituloMantenimiento">Estamos trabajando para mejorar tu experiencia</h2>
+        <section class="body100 ar_menulateral">
+            <div class="body ar_contenedor">
+                
+                <div class="ar_izquierda">
+                    <h1>expertise</h1>
+                    <p class="ar_descripcion">areas of expertise</p>
+                    <div class="ar_caja">
+                        <div class="ar_dato">
+                            <p id="ar_btn1">Water Intrusion:</p>
+                        </div>
+                        <div class="ar_dato">
+                            <p id="ar_btn2">Mold Remediation:</p>
+                        </div>
+                        <div class="ar_dato">
+                            <p id="ar_btn3">Fire/smoke:</p>
+                        </div>
+                        <div class="ar_dato">
+                            <p id="ar_btn4">Auto impact:</p>
+                        </div>
+                        <div class="ar_dato">
+                            <p id="ar_btn5">Biohazard/Sewages</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="ar_derecha" id="ar_caja">
+                    <div class="ar_foto">
+                        <img src="imagen/FOTO-2.jpg" alt="FreeLancer">
+                    </div>
+                    <div class="ar_caja">
+                        <h2 id="ar_titulo">Tecnologia e innovacion</h2>
+                        <p id="ar_descripcion">No te quedes atras y aprende  todo lo que nesecitas sobre el avance tecnologico que hay en el mundo, desde como como funciona la web hasta la.
+                        </p>
+                        <a href="#" id="enlace">more information</a>
+                    </div>
+                </div>
+
             </div>
         </section>
 
@@ -125,6 +174,7 @@
             </div>
         </footer>
 
-
+        <script src="js/jquery-3.5.1.js"></script>
+        <script src="js/java.js"></script>
     </body>
 </html>
