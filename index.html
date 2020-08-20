@@ -21,8 +21,13 @@
 <!--------------------------- SECCIÒN DEL NAVEGADOR -->
         <header>
             <div class="rm_barrraContanto">
-                <nav class="rm_navEmpresa_r">
-                    <img class="imgMenu" src="imagen/icono/menu blanco.svg" alt="">
+                <img id="botonMenu" class="imgMenu" src="imagen/icono/menublanco.svg" alt="">
+                
+                <nav id="rm_navEmpresa_r" class="rm_navEmpresa_r">
+                    <div class="cajaDeIconosResponsive">
+                        <img id="botonMenu2" class="imgMenu2" src="imagen/icono/menuColor.svg" alt="">
+                        <img id="imgMenuCerrar" class="imgMenuCerrar" src="imagen/icono/cerrar.svg" alt="">
+                    </div>
                     <ul class="nav_r">
                         <a href="index.html"><li class="liHome">Home</li></a>
                         <a href="about.html"><li>About</li></a>
@@ -481,5 +486,6 @@
         </footer>
 
         <script src="js/seccionesIndex/opcionesDetrabajo.js"></script>
+        <script src="js/nava.js"></script>
     </body>
 </html>

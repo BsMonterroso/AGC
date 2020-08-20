@@ -1,18 +1,21 @@
-$(document).ready(main);
+var botonMenu = document.getElementById('botonMenu'),
+    botonMenu2 = document.getElementById('botonMenu2'),
+    botonCerrar = document.getElementById('imgMenuCerrar'),
+    menuResponsive = document.getElementById('rm_navEmpresa_r');
 
-var contador =1;
 
-funtion main(){
-    $('.imgMenu').click(function)(){
-        if(contador ==1){
-            $('.van').animate({
-                left:'0'
-            });
-            contador = 0;
-        }else{
-            $('.nav').animate({
-                left: '-100%'
-            });
-        }
-    }
-}
+
+    function activarMenu(){
+    
+        menuResponsive.classList.add('activarMenuResponsive');
+    };
+
+    function desactivaMenu(){
+    
+        menuResponsive.classList.remove('activarMenuResponsive');
+    };
+
+
+    botonMenu.addEventListener("click", activarMenu,true);
+    botonCerrar.addEventListener("click", desactivaMenu,true);
+    botonMenu2.addEventListener("click", desactivaMenu,true);

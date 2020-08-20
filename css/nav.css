@@ -134,29 +134,54 @@
 }
 
 /*NAV RESPONSIVE*/
+.rm_navEmpresa_r{
+    display: none;
+    width: 90%;
+    height: 500px;
+    position: absolute;
+    background-color: #ffffff;
+}
+.activarMenuResponsive{
+    display: block;
+}
+.cajaDeIconosResponsive{
+    overflow: hidden;
+}
 .imgMenu{
     width: 35px;
     margin-left: 10px;
     margin-top: 10px;
-    display: none;
+    display: blok;
+    float: left;
+    cursor: pointer;
 }
-.rm_navEmpresa_r{
-    display: none;
-    width: 100%;
-    height: auto;
-    position: absolute;
+.imgMenu2{
+    width: 35px;
+    margin-left: 10px;
+    margin-top: 10px;
+    display: blok;
+    float: left;
+    cursor: pointer;
 }
+.imgMenuCerrar{
+    width: 20px;
+    margin-right: 10px;
+    margin-top: 10px;
+    display: blok;
+    float:right;
+    cursor: pointer;
+}
+
 .nav_r{
     font-size: 10px;
-    float: left;
-    background-color: var(--colorBase2);
-    display: none;
+    float: none;
+    display: block;
 }
 .nav_r > a > li{
     display: block;
     margin-left: 1em;
     margin-right: 1em;
-    padding-top: 20em;
+    padding-top: 1.5em;
     color: var(--colorBase);
     font-size: 2em;
 }
@@ -197,7 +222,7 @@
         text-align: end;
         margin-right: 0.5em;
     }
-    .rm_navEmpresa_r{
+/*     .rm_navEmpresa_r{
         width: 100%;
         display: block;
         position: absolute;
@@ -206,7 +231,7 @@
     .imgMenu{
         display: block;
     }
-    .nav_r{ /* NAVEGADOR RESPONSIVE */
+    .nav_r{ /* NAVEGADOR RESPONSIVE 
         width: 100%;
         display: none;
     }
@@ -217,7 +242,7 @@
         padding: 0.8em;
         color: var(--colorBase);
         font-size: 2em;
-    }
+    } */
 
 
 
