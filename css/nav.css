@@ -151,7 +151,7 @@
     width: 35px;
     margin-left: 10px;
     margin-top: 10px;
-    display: blok;
+    display: none;
     float: left;
     cursor: pointer;
 }
@@ -222,27 +222,10 @@
         text-align: end;
         margin-right: 0.5em;
     }
-/*     .rm_navEmpresa_r{
-        width: 100%;
-        display: block;
-        position: absolute;
-        z-index: 100;
-    }
+
     .imgMenu{
         display: block;
     }
-    .nav_r{ /* NAVEGADOR RESPONSIVE 
-        width: 100%;
-        display: none;
-    }
-    .nav_r > a > li{
-        display: block;
-        float: none;
-        margin-left: 1em;
-        padding: 0.8em;
-        color: var(--colorBase);
-        font-size: 2em;
-    } */
 
 
 
