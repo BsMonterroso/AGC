@@ -9,6 +9,7 @@
 .body100{
     width: 100%;
     height: auto;
+    font-size: 10px;
 }
 .body{
 
@@ -19,6 +20,7 @@
     margin: auto;
     overflow: hidden;
     position: relative;
+    box-sizing: border-box;
 }
 /* PALETA DE COLORES */
 :root{
@@ -85,12 +87,19 @@
         position: relative;
     }
 }
-
+@media only screen and (max-width:1000px){
+    .body{
+        width: 100%;
+        padding-left: 5%;
+    }
+}
 /* ------- SECCIÓN DE RESPONSIBE */
 @media only screen and (max-width:767px) {
 
     .body{
         font-size: 10px;
         width: 95%;
+        height: auto;
+
     }
 }

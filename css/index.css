@@ -41,7 +41,7 @@
 }
 
 .cajaMenuOpciones{
-    width: 450px;
+    width: 45em;
     margin: auto;
 }
 .seccionOpciones{
@@ -129,6 +129,7 @@ display: block;
 .anuncioGrande{
     padding-top: 5em;
     padding-bottom: 5em;
+
 }
 .ag_cajaIzquierda{
     width: 40%;
@@ -226,9 +227,24 @@ display: block;
     }  
     
 }
+@media only screen and (max-width:1000px) {
+ 
+    .cajaServicio{
+        width: 100%;
+        height: 60em;
+    }  
+    
+}
 /* -----------SECCIÓN DE RESPONSI MOVIL */
 @media only screen and (max-width:767px) {
 
+    .serviciosIndex{
+        width: 100%;
+    }
+
+    .descripcionServiciosIndex{
+        width: 100%;
+    }
     .cajaDeServicios{
         width: 100%;
         flex-direction: column;

@@ -26,30 +26,29 @@
     text-align: center;
 }
 
-/* -------------SECCIÒN DEL NAVEGADOR */
+/* -------------SSECCIÓN DE BANNER*/
 .imgBannerIndex{
     width: 100%;
-    height: 800px;
-    /* background-image: url(../imagen/banners/bannerIndex2.jpg); */
+    height: 80em;
     background-image: url(../imagen/remodelacion2.jpg);
     background-size: cover;
     background-position: bottom;
-    padding-top: 30px;
+    padding-top: 3em;
 }
 
 .rm_navEmpresa{
     width: 100%;
-    height: 250px;
     background-color:rgba(0, 53, 91,0.0);
+    overflow: hidden;
 }
 .imgEmpresa{
-    width: 300px;
+    width: 30em;
     float:left;
-    margin-top: 30px;
+    margin-top: 3em;
 }
 
 .nav{
-    font-size: 10px;
+    font-size: 1em;
     float: right;
     background-color: var(--colorBase2);
 }
@@ -59,12 +58,10 @@
     margin-left: 1em;
     margin-right: 1em;
     padding: 0.3em;
-    /* background-color: var(--colorBase3); */
     color: var(--colorBase);
     font-size: 2em;
 }
 .liHome{
-    /* background-color:var(--colorResaltante); */
     border-bottom: 0.12em solid var(--colorBase2) ;
 }
 .nav>a>li:hover{
@@ -74,41 +71,41 @@
 }
 
 /* SECCIÒN DE MENSAJES DEL BANNER */
-.mensajeBannerIndex{
-    width: 800px;
-    margin-top: 50px;
-    padding: 20px;
-/*     background-color:rgba(64, 75, 105,0.7); */
+.cajaMensajeBannerIndex{
+    width: 60%;
+    margin-top: 5em;
+    padding: 2em;
+    box-sizing: border-box;
 }
 .tituloBannerIndex2{
-    width: 750px;
-    font-size: 45px;
-    /* color: #ffffff; */
+    width: 100%;
+    font-size: 4.5em;
     color: var(--colorBase);
 }
-.tituloBannerIndex3{
-    width: 600px;
-    font-size: 20px;
-    /* color: #ffffff; */
+.parrafoBanner{
+    width: 100%;
+    font-size: 2.5em;
     color: var(--colorTexto);
 }
-
 .botonServices{
-    width: 80px;
+    width: 8em;
     display: block;
-    margin-top: 20px;
-    padding: 10px;
+    margin-top: 2em;
+    padding: 0.5em;
     background-color: #F1C40F;
     text-align: center;
-    border-radius: 3px;
+    border-radius: 0.3em;
     color: var(--colorBase);
-    font-size: 15px;
+    font-size: 1.5em;
     font-weight: 900;
+    
 }
 .botonServices:hover{
     background-color: var(--colorBase);
     color: #ffffff;
 }
+
+
 /* ----------------SECCIÓN DE BOTON FLOTANTE*/
 
 #cajaBotonFijo{
@@ -138,9 +135,9 @@
 
 /*NAV RESPONSIVE*/
 .imgMenu{
-    width: 40px;
+    width: 35px;
     margin-left: 10px;
-    margin-top: 5px;
+    margin-top: 10px;
     display: none;
 }
 .rm_navEmpresa_r{
@@ -167,19 +164,41 @@
 
 
 
-/* ------- SECCIÓN DE RESPONSIBE */
+/* ------------------------ SECCIÓN DE RESPONSIBE */
 @media only screen and (max-width:1360px) {
     #cajaBotonFijo{
         font-size: 8px;
         top: 60em;
     }
+
+
 }
+@media only screen and (max-width:1000px) {
+    .nav{
+        display: none;
+    }
+
+}
+
 
 /* ------- SECCIÓN DE RESPONSIBE */
 @media only screen and (max-width:767px) {
-    
+
+    /* SECCIÓN BARRA DE CONTACTO */
+    .rm_barrraContanto{
+        height: 50px;
+        position: fixed;
+        z-index: 100;
+    }
+    .tituloContacto{
+        font-size: 1.5em;
+        color: #ffffff;
+        font-weight: 900;
+        text-align: end;
+        margin-right: 0.5em;
+    }
     .rm_navEmpresa_r{
-        width: 80%;
+        width: 100%;
         display: block;
         position: absolute;
         z-index: 100;
@@ -187,7 +206,7 @@
     .imgMenu{
         display: block;
     }
-    .nav_r{
+    .nav_r{ /* NAVEGADOR RESPONSIVE */
         width: 100%;
         display: none;
     }
@@ -196,7 +215,6 @@
         float: none;
         margin-left: 1em;
         padding: 0.8em;
-        /* background-color: var(--colorBase3); */
         color: var(--colorBase);
         font-size: 2em;
     }
@@ -204,48 +222,47 @@
 
 
 
-    .rm_barrraContanto{
-        height: 50px;
-        position: fixed;
-        z-index: 100;
-    }
-    .imgBannerIndex{
+
+    .imgBannerIndex{/* CAJA DEL BANNER */
         width: 100%;
-        height: 700px;
-    }
-    .tituloContacto{
-        font-size: 23px;
-        color: #ffffff;
-        font-weight: 900;
-        text-align: end;
-        margin-right: 10px;
-        margin-top: 5px;
-    }
-    .nav{
-        display:none;
+        height: auto;
+        padding-bottom: 2em;
     }
     .imgEmpresa{
-        width: 90%;
+        width: 70%;
+        height: auto;
         float:none;
         display: block;
         margin: auto;
-        margin-top: 60px;
+        margin-top: 6em;
     }
-    .mensajeBannerIndex{
+
+    .nav{/* ANULACIÓN DE NAV DEL BANNER */
+        display:none;
+    }
+    .cajaMensajeBannerIndex{
         width: 100%;
         height:auto;
-        margin-top: 8em;
-        padding: 20px;
+        margin-top: 3em;
+        padding: 0em;
     }
     .tituloBannerIndex2{
         width: 100%;
-        font-size: 40px;
+        font-size: 3.5em;
+        text-align: center;
     }
-    .tituloBannerIndex3{
+    .parrafoBanner{
         width: 100%;
         font-size: 20px;
+        text-align: center;
     }
+    .botonServices{
+        width: 10em;
+        display: block;
+        margin: auto;
+        margin-top: 2em;
 
+    }
 
     /* SECCIÓN DE BOTO FLOTANTE */
     .icoResponsive{
