@@ -15,7 +15,7 @@
 .potente{
     color: var(--colorBase2);
 }
-.bs_texto_Principal {
+.general_texto {
     padding-top: 5px;
     font-size: 3em;
     color: var(--colorBase);
