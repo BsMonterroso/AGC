@@ -4,6 +4,12 @@
     text-decoration:none;
     font-family: 'Roboto', sans-serif;
 }
+
+/* IMG DE BANNER DE LA PAGINA */
+.imgBannerAbout{
+    background-image: url(../imagen/banners/bannerIndex.jpg);
+}
+
 /*inicia diseño de texto debajo del banner*/
 .general_texto{
     margin-top: 0.5em;
@@ -135,4 +141,5 @@
         height: auto;
 
     }
+
 }

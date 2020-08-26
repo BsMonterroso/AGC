@@ -5,6 +5,11 @@
     font-family: 'Roboto', sans-serif;
 }
 
+/* IMG DE BANNER DE LA PAGINA */
+.imgBannerServices{
+    background-image: url(../imagen/banners/bannerIndex.jpg);
+}
+
 .serviciosA{
     display: flex;
     flex-direction: row;

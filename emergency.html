@@ -3,12 +3,13 @@
 
     <head>
         <link rel="stylesheet" href="css/general.css">
+        <link rel="stylesheet" href="css/about.css">
         <link rel="stylesheet" href="css/nav.css">
-        <link rel="stylesheet" href="css/footer.css"> 
+        <link rel="stylesheet" href="css/emergency.css">
+        <link rel="stylesheet" href="css/footer.css">
         <link href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet">
-        <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,300;1,300&display=swap" rel="stylesheet">
-        <link rel="stylesheet" href="css/index.css"> 
-        <meta>
+        <link href="https://fonts.googleapis.com/css2?family=Hind&display=swap" rel="stylesheet">
+
 
         <link rel="icon" href="imagen/icono/ico_AGC.ico"> 
         <meta charset="utf-8">
@@ -18,42 +19,59 @@
     </head>
     
     <body>
-        <!-- SECCIÒN DEL NAVEGADOR -->
-        <header>
-            <div class="rm_barrraContanto">
-                   <!--  <img class="icoTelefono" src="imagen/icono/llamada.svg" alt=""> -->
-                    <h1 class="tituloContacto">Emergency number: 800-327-7605</h1> 
-            </div>
-            <section class="body100 imgBannerIndex ocultar">
-                <nav class="rm_navEmpresa">
-                    <div class="body">
-                        <img class="imgEmpresa" src="imagen/imgUser/logoAGC.jpg">
-                        <ul class="nav">
-                            <a href="index.html"><li class="liHome">Home</li></a>
-                            <a href="about.html"><li>About</li></a>
-                            <a href="emergency.html"><li>Emergency</li></a>
-                            <a href="services.html"><li>Services</li></a>
-                            <a href="contacts.html"><li>Contact</li></a>
-                        </ul>
-                    </div>
-                </nav>
-
-                <div class="body">
-                    <div class="mensajeBannerIndex">
-                        <h1 class="tituloBannerIndex2">Servicio de contrucción inmediata</h1>
-                        <p class="tituloBannerIndex3">Descricòn de la empresa y lo que da a conocer en la home page.</p>
-                        <a class="botonServices" href="#">Services</a>
-                    </div>
+    <!-- SECCIÒN DEL NAVEGADOR -->
+    <header>
+        <div class="rm_barrraContanto">
+            <img id="botonMenu" class="imgMenu" src="imagen/icono/menublanco.svg" alt="">
+            
+            <nav id="rm_navEmpresa_r" class="rm_navEmpresa_r">
+                <div class="cajaDeIconosResponsive">
+                    <img id="botonMenu2" class="imgMenu2" src="imagen/icono/menuColor.svg" alt="">
+                    <img id="imgMenuCerrar" class="imgMenuCerrar" src="imagen/icono/cerrar.svg" alt="">
                 </div>
+                <ul class="nav_r">
+                    <a href="index.html"><li class="liHome">Home</li></a>
+                    <a href="about.html"><li>About</li></a>
+                    <a href="emergency.html"><li>Emergency</li></a>
+                    <a href="services.html"><li>Services</li></a>
+                    <a href="contacts.html"><li>Contact</li></a>
+                    </ul>
+            </nav>
 
-            </section>
+            <h1 class="tituloContacto">Emergency : 800-327-7605</h1> 
+        </div>
+        
+        <div class="icoResponsive">
+            <div id="cajaBotonFijo">
+            <img class="icoTelefonoFlotante" src="imagen/icono/llamada.svg" alt="">
+            <span class="tituloFlotante">800-327-7605</span>
+            </div>
+        </div>
+    </header>
 
-                   <div id="cajaBotonFijo">
-                    <img class="icoTelefonoFlotante" src="imagen/icono/llamada.svg" alt="">
-                    <span class="tituloFlotante">800-327-7605</span>
-                   </div>
+    <!-------------------------- SECCIÓN DEL BANNER CON NAVEGADOR -->
 
-        </header>
+    <section class="body100 imgBannerGeneral imgBannerEmergency">
+        <nav class="rm_navEmpresa">
+            <div class="body ">
+                <img class="imgEmpresaGeneral confiGeneral" src="imagen/imgUser/logo_png.png">
+                <ul class="nav">
+                    <a href="index.html"><li class="liHome">Home</li></a>
+                    <a href="about.html"><li>About</li></a>
+                    <a href="emergency.html"><li>Emergency</li></a>
+                    <a href="services.html"><li>Services</li></a>
+                    <a href="contacts.html"><li>Contact</li></a>
+                </ul>
+            </div>
+        </nav>
+
+        <div class="body textoBannerGeneral">
+            <div class="cajaMensajeBannerIndex">
+                <h1 class="tituloBannerIndex2">Immediate construction service</h1>
+                <p class="parrafoBanner">When an emergency occurs, we know that time is critical, that is why Accuracy are ready 24/7 all year round, you can be sure that Accuracy will restore your property with the highest standards protocol in the industry.</p>
+            </div>
+        </div>
+    </section>
 
         <!-- SECCIÒN DEL BODY -->
 
@@ -125,6 +143,6 @@
             </div>
         </footer>
 
-
+        <script src="js/nava.js"></script>
     </body>
 </html>

@@ -30,7 +30,7 @@
 .imgBannerIndex{
     width: 100%;
     height: 80em;
-    background-image: url(../imagen/remodelacion2.jpg);
+    background-image: url(../imagen/banners/remodelacion2.jpg);
     background-size: cover;
     background-position: bottom;
     padding-top: 3em;
@@ -69,6 +69,26 @@
     color: #ffffff;
     transition: 0.1s;
 }
+
+/* SECCIÓN GENERAL DEL BANNER PARA LAS OTRAS PÁGINAS */
+/* BANNER DE ABOUT */
+.imgBannerGeneral{
+    width: 100%;
+    height: 50em;
+    background-size: cover;
+    background-position: bottom;
+    padding-top: 3em;
+}
+.imgEmpresaGeneral{
+    width: 30em;
+    float:left;
+    margin-top: 3em;
+}
+.textoBannerGeneral{
+    padding: 0;
+    font-size: 8px;
+}
+
 
 /* SECCIÒN DE MENSAJES DEL BANNER */
 .cajaMensajeBannerIndex{
@@ -244,6 +264,18 @@
         margin: auto;
         margin-top: 6em;
     }
+
+    /* CONFIGURACIÓN GENERAL DEL BANNER */
+    .confiGeneral{
+        display: none;
+    }
+    .textoBannerGeneral{
+        padding: 0;
+        font-size: 8px;
+        margin-top: 10em;
+        background-color: rgba(255, 255, 255,0.6);
+    }
+
 
     .nav{/* ANULACIÓN DE NAV DEL BANNER */
         display:none;

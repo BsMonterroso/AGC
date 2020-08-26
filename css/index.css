@@ -60,6 +60,7 @@
     }
 
 .tituloServiciosIndex{
+    width: 100%;
     color: var(--colorTexto);
     font-size: 3.5em;
     text-align: center;
@@ -267,7 +268,69 @@ display: block;
         margin: auto;
         margin-bottom: 5em;
     }
+    /* MENU DE SERVICIOS  */
+    .cajaMenuOpciones{
+        width: 100%;
+    }
+    .seccionOpciones{
+        width: 100%;
+        margin-bottom: 5em;
+        overflow: hidden;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-evenly;
+    }
+    .liopcion{
+        display: block;
+        float: none;
+        margin: 0;
+        font-size:2em ;
+        cursor: pointer;
+        color:  #c3c3c3;
+        }
 
-
-
+        /* SECCIÍON DE ANUNCIO GRANDE */
+        .anuncioGrande{
+            padding-top: 0em;
+            padding-bottom: 0em;
+        
+        }
+        .anucioGrandeConfig{
+            padding: 0;
+        }
+        .ag_cajaIzquierda{
+            width: 100%;
+            height:auto;
+            position: relative;
+            float: none;
+            padding-right:5em;
+            box-sizing: border-box;
+        }
+        .ag_cajaTitulo{
+            width: 100%;
+            margin: auto;
+            display: block;
+            margin-top: 0em;
+            position: static;
+            z-index: 0;
+            background-color: rgba(245, 245, 245,0.5);
+            padding-left: 0em;
+        }
+        .ag_cajaIzquierda p{
+            margin: 0;
+            padding: 0;
+            width: 100%;
+            margin: auto;
+            font-size: 2em;
+            margin-top: 1em;
+            text-align: center;
+            color: var(--colorTextoFuerte);
+            background-color: blue;
+        }
+        .ag_cajaDerecha{
+            width: 100%;
+            height: 600px;
+            background-color: green;
+            float: none;
+        }
 }
