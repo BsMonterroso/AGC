@@ -12,7 +12,7 @@
 
 /*inicia diseño de texto debajo del banner*/
 .general_texto{
-    margin-top: 0.5em;
+    margin-top: 0.2em;
     width: 100%;
     height: auto;
     background-color:var(--colorBase6);
@@ -23,18 +23,18 @@
 }
 .general_texto {
     padding-top: 5px;
-    font-size: 3em;
+    font-size: 2em;
     color: var(--colorBase);
     
 }
 .bs_subtitulo{
     padding-top: 1em;
-    font-size:1.6em ;
+    font-size: 1.5em;
     text-align: center;
     color: var(--colorTexto);
 }
 .informacion_nosotros{
-    font-size: 1.2em;
+    font-size: 1.1em;
     text-align: center;
     color: var(--colorTexto);
     padding-bottom: 3em;
@@ -45,8 +45,8 @@
     justify-content: center;
 }
 .imagen_nosotros img{
-    width: 40%;
-    height: 25em;
+    width: 65em;
+    height: 38em;
     padding: 1em;
 }
 
@@ -84,16 +84,17 @@
 /*SEXXION SEL VIDEO*/
 .body .video{
     width: 100%;
+    padding-top: 2em;
     height: auto;
     display: flex;
-    flex-flow: column;  
-   
+    flex-flow: column;   
  }
 
+
 .video{ 
-    padding-top: 1em;
+    padding-top : 5em;
     font-size: 1em;
-    color: var(--colorTexto );
+    color: var(--colorTexto);
 
 }
 .lado_2019{
@@ -103,17 +104,18 @@
     margin-left: 4em;
 }
 .lado_2019 p{
-    font-size: 1.2em;
+    font-size: 1.8em;
 }
 .logopeque{
-    margin-left: 9em;
-    width: 12em;
-    height: 8em;
+    margin-left: 20em;
+    width: 15em;
+    height: 10em;
 }
 
 
 .año_2019{
-    font-size: 2em;
+    font-size: 3.5em;
+    text-align: center;
 }
 
 /*videoPRINCIPAL*/
@@ -136,9 +138,52 @@
 /* ------- SECCIÓN DE RESPONSIBE */
 @media only screen and (max-width:767px) {
 
-    .video_2019{
+    .imagen_nosotros{
         width: 90%;
         height: auto;
+        display:flex;
+        justify-content: center;
+        flex-flow: column;
+    }
+    
+    .imagen_nosotros img{
+        width: 95%;
+        height: auto;
+    }
+
+    .video{
+        width: 100%;
+        height: auto; 
+        font-size: 1.2em;
+        color: var(--colorTexto);
+    }
+
+    .lado_2019{
+        width: 80%;
+        height: auto;
+    }
+
+    .lado_2019 p{
+        text-align: center;
+    }
+
+    .año_2019{
+        font-size: 4em;
+        text-align: center;
+    }
+
+    .logopeque{
+        margin-left: 6em;  
+        width: 15em;
+        height: 10em;
+    }
+    
+
+    .video_2019{
+        padding-top: 4em;
+        margin-right: 10em;
+        width: 85%;
+        height: 280px;
 
     }
 
