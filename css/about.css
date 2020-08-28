@@ -78,8 +78,26 @@
     display: block;
     margin: auto;
 }
+/*debjo de la linea de imagenes*/
+.lineaB{
+    width: 80%;
+    height: 2px;
+    margin-bottom: 50px;
+    background-color: var(--colorTexto);
+}
 
+.info_empresa{
+  height: 400px;
+  background-color: var(--colorBase6);
+}
 
+.info_empresa{
+    font-size: 2em;
+}
+.info_empresa h2{
+    color: var(--colorResaltante);
+}
+/*se cierra debajo de la linea*/
 
 /*SEXXION SEL VIDEO*/
 .body .video{

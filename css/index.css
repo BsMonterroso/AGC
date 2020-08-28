@@ -325,7 +325,6 @@ display: block;
             margin-top: 1em;
             text-align: center;
             color: var(--colorTextoFuerte);
-            background-color: blue;
         }
         .ag_cajaDerecha{
             width: 100%;
@@ -333,4 +332,17 @@ display: block;
             background-color: green;
             float: none;
         }
+
+        .cajaDeSertificados{
+            width: 100%;
+            display: flex;
+            justify-content: center;
+            flex-flow: column;
+        }
+
+        .sertificado{
+            width: 48%;
+            margin-left: 1.5em;
+        }
+
 }
