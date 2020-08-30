@@ -35,20 +35,22 @@
 }
 
 
-/* SECCIÓN DE SERVICIOS MAYORES */
+/* --------------------------------------SECCIÓN DE SERVICIOS MAYORES */
 .serviciosIndex{
     padding: 5em 0em 5em 0em;
 }
 
 .cajaMenuOpciones{
-    width: 45em;
+    width: 100%;
     margin: auto;
 }
 .seccionOpciones{
-    width: auto;
+    width: 50%;
     overflow: hidden;
-    display: block;
-    margin: auto;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    margin:auto;
 }
 .liopcion{
     display: block;
@@ -86,8 +88,8 @@
 }
 
 .cajaServicio{
-    width: 40em;
-    height: 60em;
+    width: 90%;
+    height: 70em;
     background-color: #FAFAFA;
 }    
 .imgServicio{
@@ -220,13 +222,17 @@ display: block;
 
 
 /* ------SECCIÓN DE RESPONSIBE */
-@media only screen and (max-width:1360px) {
+@media only screen and (max-width:1366px) {
  
     .cajaServicio{
         width: 30em;
         height: 60em;
-    }  
-    
+    }
+    .cajaServicio{
+        width: 90%;
+        height: 70em;
+        background-color: #FAFAFA;
+    } 
 }
 @media only screen and (max-width:1000px) {
  
