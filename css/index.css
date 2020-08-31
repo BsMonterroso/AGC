@@ -45,17 +45,17 @@
     margin: auto;
 }
 .seccionOpciones{
-    width: 50%;
+    width: 30%;
     overflow: hidden;
     display: flex;
     flex-direction: row;
-    justify-content: space-evenly;
+    justify-content: space-between;
     margin:auto;
 }
 .liopcion{
     display: block;
     float: left;
-    margin: 23px 23px 50px 23px;
+    margin-bottom:3em;
     font-size:2em ;
     cursor: pointer;
     color:  #c3c3c3;
@@ -88,13 +88,13 @@
 }
 
 .cajaServicio{
-    width: 90%;
+    width: 45em;
     height: 70em;
     background-color: #FAFAFA;
 }    
 .imgServicio{
     width: 100%;
-    height: 30em;
+    height: 25em;
 }
 .imgServicio img{
     width: 100%;
@@ -229,10 +229,11 @@ display: block;
         height: 60em;
     }
     .cajaServicio{
-        width: 90%;
+        width: 40em;
         height: 70em;
         background-color: #FAFAFA;
-    } 
+    }
+
 }
 @media only screen and (max-width:1000px) {
  
