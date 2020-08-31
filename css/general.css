@@ -69,6 +69,25 @@
     display: none;
 }
 
+/* SECCIÓN DE TEXTO TITULO Y DESCPRICIONES GENERALES */
+.tituloServiciosIndex{
+    width: 100%;
+    color: var(--colorTexto);
+    font-size: 3.5em;
+    text-align: center;
+}
+.descripcionServiciosIndex{
+    display: block;
+    margin: auto;
+    width: 60%;
+    color: var(--colorTextoFuerte);
+    font-size: 1.7em;
+    text-align: center;
+    margin-bottom: 5em;
+}
+.txtDecoracion{
+    color: var(--colorBase2);
+}
 
 /* -------SECCIÓN DE RESPONSIVE-------- */
 @media only screen and (max-width:1366px) {
