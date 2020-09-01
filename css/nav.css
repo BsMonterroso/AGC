@@ -136,7 +136,7 @@
     background-color: var(--colorResaltante);
     border-radius: 1em 0em 1em 0em;
     position: fixed;
-    top:70em;
+    top:60em;
     right: 0em;
     z-index: 100;
 }

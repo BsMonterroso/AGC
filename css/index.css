@@ -300,12 +300,13 @@ display: block;
         .anuncioGrande{
             padding-top: 0em;
             padding-bottom: 0em;
-        
+            
         }
         .anucioGrandeConfig{
             padding: 0;
         }
         .ag_cajaIzquierda{
+            margin-left:1.5em;
             width: 100%;
             height:auto;
             position: relative;
@@ -315,6 +316,7 @@ display: block;
         }
         .ag_cajaTitulo{
             width: 100%;
+            text-align: center;
             margin: auto;
             display: block;
             margin-top: 0em;
@@ -322,6 +324,7 @@ display: block;
             z-index: 0;
             background-color: rgba(245, 245, 245,0.5);
             padding-left: 0em;
+            
         }
         .ag_cajaIzquierda p{
             margin: 0;
@@ -340,16 +343,38 @@ display: block;
             float: none;
         }
 
-        .cajaDeSertificados{
-            width: 100%;
-            display: flex;
-            justify-content: center;
-            flex-flow: column;
-        }
+    
 
-        .sertificado{
-            width: 48%;
-            margin-left: 1.5em;
-        }
+/* SECCIÓN DE SERTIFICADOS DE LA EMPRES */
 
+.rm_linea{
+    width: 100%;
+    height: 2px;
+    margin-bottom: 15px;
+    background-color: var(--colorTexto);
+}
+
+.cajaDeSertificados{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    flex-flow:column ;
+}
+.sertificado{
+    width: 100%;
+   display: flex;
+   justify-content: center;
+}
+.imgS1{
+    width: 200px;
+    display: block;
+    margin: auto;
+    padding-bottom: 1em;
+}
+
+.imgS2{
+    width: 350px;
+    display: block;
+    margin: auto;
+}
 }
