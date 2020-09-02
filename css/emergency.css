@@ -2,3 +2,45 @@
 .imgBannerEmergency{
     background-image: url(../imagen/banners/bannerIndex.jpg);
 }
+
+.emergencia24{
+    margin-top:25px;
+    height:125px;
+    background-color:#b50810;
+    color: white;
+    font-size: 3.5em;
+    text-align: center;
+    border-radius: 10px;
+    margin-bottom: 10px;
+}
+
+.emergenciaA{
+    padding-top: 5em;
+    padding-bottom: 5em;
+}
+
+.emergencia_izq{
+    width: 30%;
+    height: 300px;
+    position: relative;
+    float: left;
+    background-color: #b50810;
+    text-align: center;
+    padding: 3em;
+    color: white;
+}
+
+.emergencia_der{
+    width: 60%;
+    height: 600px;
+    background-color: green;
+    float: right;
+}
+
+.emergencia_izq > h2{
+    font-size: 3em;
+}
+
+.emergencia_izq > p {
+    font-size:2em;
+}
