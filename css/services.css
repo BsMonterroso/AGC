@@ -159,3 +159,44 @@
     line-height:1.5em ;/* INTERLINEADO */
     color: var(--colorTextoFuerte);
 }
+
+/* ------- SECCIÓN DE RESPONSIBE */
+@media only screen and (max-width:767px) {
+
+    /* SECCIÓN IZQUIERDA */
+    .ccp_cajaIzquierda{
+    width: 100%;
+    height: auto;
+    float: none;
+    padding-bottom: 2em;
+}
+   
+.ccp_cajaSlider{
+    margin-top:1em ;
+    width: 100%;
+    height: auto;
+/*  background-image: url(../imagen/servicios/FOTO-1.jpg);
+    background-position: center;
+    background-size: cover; */
+    background-color: rebeccapurple;
+}
+.ccp_mySlides{
+    width: 100%    ;
+    height: 250px;
+}
+
+#ccp_BotonDespues{
+    position: absolute;
+    bottom: 1em;
+    right: 0em;
+    padding-left: 2em;
+}
+
+    /* SECCIÓN DERECHA */
+    .ccp_cajaDerecha{
+    width: 100%;
+    height: auto;
+    float: none;
+}
+
+}
