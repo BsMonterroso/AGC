@@ -114,6 +114,13 @@
     outline: inherit;
 }
 
+.mapa_celular {
+    display: none;
+}
+
+.mapa{
+        padding: 4em;
+}
 
 /* Secciónd e configuración mobil */
 
@@ -166,4 +173,14 @@
         margin-top: 1em;
         float: right;
     }
+
+    .mapa {
+        display: none;
+    }
+    .mapa_celular {
+        display: inline-block;
+        width: 100%;
+        padding-bottom: 2em;
+    }
+
 }
