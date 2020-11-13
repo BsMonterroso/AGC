@@ -1,20 +1,20 @@
-*{
-    margin:0;
-    padding:0;
-    text-decoration:none;
+* {
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
     font-family: 'Roboto', sans-serif;
     font-family: 'Hind', sans-serif !important;
 }
 
-.body100{
+.body100 {
     width: 100%;
     height: auto;
     font-size: 10px;
+    overflow: hidden;
 }
-.body{
 
+.body {
     font-size: 10px;
-
     width: 1400px;
     height: auto;
     margin: auto;
@@ -22,61 +22,76 @@
     position: relative;
     box-sizing: border-box;
 }
+
+
 /* PALETA DE COLORES */
-:root{
-    --colorBase:  #00355B;
+
+:root {
+    --colorBase: #00355B;
     --colorBase2: #F1C40F;
     --colorBase3: #A6937C;
     --colorBase4: #5D7A8C;
     --colorBase5: #B4C4D9;
     --colorBase6: #fafafa;
-
     --colorResaltante: #ED1D24;
-    --colorTexto:  #272b35;
+    --colorTexto: #272b35;
+    --colorTexto2: #9E9E9E;
     --colorTextoFuerte: #6D6D6D;
 }
+
+
 /* DIMENCIONES DE OBJETOS DE LA PÀGINA */
-:root{
+
+:root {
     --sizeParrafo: 2em;
     --sizeTitulo: 4em;
     --sizeSubTitulo: 3em;
 }
 
 
-
 /* GUIA DE DESARROLADORES */
 
-.desColor{
+.desColor {
     background-color: red;
 }
-.desColor1{
+
+.desColor1 {
     background-color: blue;
 }
+
+
 /* SECCION DE MANTENIMIENTO */
-.bodyMantenimiento{
+
+.bodyMantenimiento {
     height: 800px;
 }
-.imgMantenimiento{
+
+.imgMantenimiento {
     display: block;
     margin: auto;
 }
-.tituloMantenimiento{
+
+.tituloMantenimiento {
     text-align: center;
     color: var(--colorTexto);
     font-size: 3em;
 }
-.ocultar{
+
+.ocultar {
     display: none;
 }
 
+
 /* SECCIÓN DE TEXTO TITULO Y DESCPRICIONES GENERALES */
-.tituloServiciosIndex{
+
+.tituloServiciosIndex {
     width: 100%;
     color: var(--colorTexto);
     font-size: 3.5em;
     text-align: center;
 }
-.descripcionServiciosIndex{
+
+.descripcionServiciosIndex {
     display: block;
     margin: auto;
     width: 60%;
@@ -85,20 +100,26 @@
     text-align: center;
     margin-bottom: 5em;
 }
-.txtDecoracion{
+
+.txtDecoracion {
     color: var(--colorBase2);
 }
 
+.linea {
+    height: 0.5em;
+    background: #ED1D24;
+}
+
+
 /* -------SECCIÓN DE RESPONSIVE-------- */
+
 @media only screen and (max-width:1366px) {
-    .body100{
+    .body100 {
         width: 100%;
         height: auto;
     }
-    .body{
-    
+    .body {
         font-size: 8px;
-    
         width: 1000px;
         height: auto;
         margin: auto;
@@ -106,16 +127,19 @@
         position: relative;
     }
 }
-@media only screen and (max-width:1000px){
-    .body{
+
+@media only screen and (max-width:1000px) {
+    .body {
         width: 100%;
         padding-left: 5%;
     }
 }
-/* ------- SECCIÓN DE RESPONSIBE */
-@media only screen and (max-width:767px) {
 
-    .body{
+
+/* ------- SECCIÓN DE RESPONSIBE */
+
+@media only screen and (max-width:767px) {
+    .body {
         font-size: 10px;
         width: 95%;
         height: auto;
