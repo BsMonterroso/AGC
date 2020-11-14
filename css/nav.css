@@ -1,23 +1,24 @@
-*{
-    margin:0;
-    padding:0;
-    text-decoration:none;
-    font-family: 'Roboto', sans-serif;
+* {
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    font-family: 'Hind', sans-serif;
 }
-.rm_barrraContanto{
+
+.rm_barrraContanto {
     width: 100%;
     height: 50px;
     background-color: var(--colorBase);
     position: relative;
 }
 
-.icoTelefono{
+.icoTelefono {
     width: 25px;
     float: left;
     margin-right: 15px;
 }
 
-.tituloContacto{
+.tituloContacto {
     padding-top: 8px;
     margin: auto;
     font-size: 25px;
@@ -26,8 +27,10 @@
     text-align: center;
 }
 
+
 /* -------------SSECCIÓN DE BANNER*/
-.imgBannerIndex{
+
+.imgBannerIndex {
     width: 100%;
     height: 80em;
     background-image: url(../imagen/banners/remodelacion2.jpg);
@@ -36,23 +39,25 @@
     padding-top: 3em;
 }
 
-.rm_navEmpresa{
+.rm_navEmpresa {
     width: 100%;
-    background-color:rgba(0, 53, 91,0.0);
+    background-color: rgba(0, 53, 91, 0.0);
     overflow: hidden;
 }
-.imgEmpresa{
+
+.imgEmpresa {
     width: 30em;
-    float:left;
+    float: left;
     margin-top: 3em;
 }
 
-.nav{
+.nav {
     font-size: 1em;
     float: right;
     background-color: var(--colorBase2);
 }
-.nav > a > li{
+
+.nav>a>li {
     display: block;
     float: left;
     margin-left: 1em;
@@ -61,53 +66,65 @@
     color: var(--colorBase);
     font-size: 2em;
 }
-.liHome{
-    border-bottom: 0.12em solid var(--colorBase2) ;
+
+.liHome {
+    border-bottom: 0.12em solid var(--colorBase2);
 }
-.nav>a>li:hover{
+
+.nav>a>li:hover {
     background-color: var(--colorBase);
     color: #ffffff;
     transition: 0.1s;
 }
 
+
 /* SECCIÓN GENERAL DEL BANNER PARA LAS OTRAS PÁGINAS */
+
+
 /* BANNER DE ABOUT */
-.imgBannerGeneral{
+
+.imgBannerGeneral {
     width: 100%;
     height: 50em;
     background-size: cover;
     background-position: bottom;
     padding-top: 3em;
 }
-.imgEmpresaGeneral{
+
+.imgEmpresaGeneral {
     width: 30em;
-    float:left;
+    float: left;
     margin-top: 3em;
 }
-.textoBannerGeneral{
+
+.textoBannerGeneral {
     padding: 0;
     font-size: 8px;
 }
 
 
 /* SECCIÒN DE MENSAJES DEL BANNER */
-.cajaMensajeBannerIndex{
+
+.cajaMensajeBannerIndex {
     width: 60%;
     margin-top: 5em;
     padding: 2em;
     box-sizing: border-box;
 }
-.tituloBannerIndex2{
+
+.tituloBannerIndex2 {
     width: 100%;
     font-size: 4.5em;
     color: var(--colorBase);
 }
-.parrafoBanner{
+
+.parrafoBanner {
     width: 100%;
     font-size: 2.5em;
     color: var(--colorTexto);
 }
-.botonServices{
+
+.botonServices {
     width: 8em;
     display: block;
     margin-top: 2em;
@@ -118,9 +135,9 @@
     color: var(--colorBase);
     font-size: 1.5em;
     font-weight: 900;
-    
 }
-.botonServices:hover{
+
+.botonServices:hover {
     background-color: var(--colorBase);
     color: #ffffff;
 }
@@ -128,7 +145,7 @@
 
 /* ----------------SECCIÓN DE BOTON FLOTANTE*/
 
-#cajaBotonFijo{
+#cajaBotonFijo {
     display: block;
     font-size: 10px;
     width: 30em;
@@ -136,39 +153,46 @@
     background-color: var(--colorResaltante);
     border-radius: 1em 0em 1em 0em;
     position: fixed;
-    top:60em;
+    top: 60em;
     right: 0em;
     z-index: 100;
 }
-.icoTelefonoFlotante{
+
+.icoTelefonoFlotante {
     width: 3.5em;
     float: left;
     margin-right: 1.5em;
     margin: 2em 1.5em 0em 1em;
 }
-.tituloFlotante{
+
+.tituloFlotante {
     float: left;
-    color:#ffffff;
+    color: #ffffff;
     font-size: 3.5em;
     margin-top: 0.4em;
     font-weight: 900;
 }
 
+
 /*NAV RESPONSIVE*/
-.rm_navEmpresa_r{
+
+.rm_navEmpresa_r {
     display: none;
     width: 90%;
     height: 500px;
     position: absolute;
     background-color: #ffffff;
 }
-.activarMenuResponsive{
+
+.activarMenuResponsive {
     display: block;
 }
-.cajaDeIconosResponsive{
+
+.cajaDeIconosResponsive {
     overflow: hidden;
 }
-.imgMenu{
+
+.imgMenu {
     width: 35px;
     margin-left: 10px;
     margin-top: 10px;
@@ -176,7 +200,8 @@
     float: left;
     cursor: pointer;
 }
-.imgMenu2{
+
+.imgMenu2 {
     width: 35px;
     margin-left: 10px;
     margin-top: 10px;
@@ -184,21 +209,23 @@
     float: left;
     cursor: pointer;
 }
-.imgMenuCerrar{
+
+.imgMenuCerrar {
     width: 20px;
     margin-right: 10px;
     margin-top: 10px;
     display: blok;
-    float:right;
+    float: right;
     cursor: pointer;
 }
 
-.nav_r{
+.nav_r {
     font-size: 10px;
     float: none;
     display: block;
 }
-.nav_r > a > li{
+
+.nav_r>a>li {
     display: block;
     margin-left: 1em;
     margin-right: 1em;
@@ -208,16 +235,14 @@
 }
 
 
-
-
 /* ------------------------ SECCIÓN DE RESPONSIBE */
+
 @media only screen and (max-width:1366px) {
-    #cajaBotonFijo{
+    #cajaBotonFijo {
         font-size: 8px;
         top: 60em;
     }
-
-    .imgBannerIndex{
+    .imgBannerIndex {
         width: 100%;
         height: 60em;
         background-image: url(../imagen/banners/remodelacion2.jpg);
@@ -225,98 +250,89 @@
         background-position: bottom;
         padding-top: 3em;
     }
-
-    #cajaBotonFijo{
-        top:60em;  
+    #cajaBotonFijo {
+        top: 60em;
     }
-   
 }
+
 @media only screen and (max-width:1000px) {
-    .nav{
+    .nav {
         display: none;
     }
-
 }
 
 
 /* ------- SECCIÓN DE RESPONSIBE */
-@media only screen and (max-width:767px) {
 
+@media only screen and (max-width:767px) {
     /* SECCIÓN BARRA DE CONTACTO */
-    .rm_barrraContanto{
+    .rm_barrraContanto {
         height: 50px;
         position: fixed;
         z-index: 100;
     }
-    .tituloContacto{
+    .tituloContacto {
         font-size: 1.5em;
         color: #ffffff;
         font-weight: 900;
         text-align: end;
         margin-right: 0.5em;
     }
-
-    .imgMenu{
+    .imgMenu {
         display: block;
     }
-
-
-
-    .imgBannerIndex{/* CAJA DEL BANNER */
+    .imgBannerIndex {
+        /* CAJA DEL BANNER */
         width: 100%;
         height: auto;
         padding-bottom: 2em;
     }
-    .imgEmpresa{
+    .imgEmpresa {
         width: 70%;
         height: auto;
-        float:none;
+        float: none;
         display: block;
         margin: auto;
         margin-top: 6em;
     }
-
     /* CONFIGURACIÓN GENERAL DEL BANNER */
-    .confiGeneral{
+    .confiGeneral {
         display: none;
     }
-    .textoBannerGeneral{
+    .textoBannerGeneral {
         padding: 0;
         font-size: 8px;
         margin-top: 10em;
-        background-color: rgba(255, 255, 255,0.6);
+        background-color: rgba(255, 255, 255, 0.6);
     }
-
-
-    .nav{/* ANULACIÓN DE NAV DEL BANNER */
-        display:none;
+    .nav {
+        /* ANULACIÓN DE NAV DEL BANNER */
+        display: none;
     }
-    .cajaMensajeBannerIndex{
+    .cajaMensajeBannerIndex {
         width: 100%;
-        height:auto;
+        height: auto;
         margin-top: 3em;
         padding: 0em;
     }
-    .tituloBannerIndex2{
+    .tituloBannerIndex2 {
         width: 100%;
         font-size: 3.5em;
         text-align: center;
     }
-    .parrafoBanner{
+    .parrafoBanner {
         width: 100%;
         font-size: 20px;
         text-align: center;
     }
-    .botonServices{
+    .botonServices {
         width: 10em;
         display: block;
         margin: auto;
         margin-top: 2em;
-
     }
-
     /* SECCIÓN DE BOTO FLOTANTE */
-    .icoResponsive{
+    .icoResponsive {
         width: auto;
         height: auto;
         position: fixed;
@@ -326,21 +342,21 @@
         padding-bottom: 10px;
         padding-right: 10px;
     }
-    #cajaBotonFijo{
+    #cajaBotonFijo {
         font-size: 10px;
         width: 7em;
         height: 7em;
         background-color: var(--colorResaltante);
-        border-radius:100px;
+        border-radius: 100px;
         position: static;
     }
-    .icoTelefonoFlotante{
+    .icoTelefonoFlotante {
         width: 3.5em;
         float: left;
         margin-right: 0em;
         margin: 2em 1.5em 0em 1.5em;
     }
-    .tituloFlotante{
+    .tituloFlotante {
         display: none;
     }
 }

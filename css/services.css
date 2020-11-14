@@ -2,7 +2,7 @@
     margin: 0;
     padding: 0;
     text-decoration: none;
-    font-family: 'Roboto', sans-serif;
+    font-family: 'Hind', sans-serif;
 }
 
 
@@ -213,7 +213,7 @@
 }
 
 .rm_cajaImgServices2 {
-    width: 60em;
+    width: 100%;
     height: 40em;
 }
 
@@ -325,6 +325,29 @@
     }
     .rm_cds2_contenido {
         width: 100%;
+        height: auto;
     }
-    .rm_cajaImgServices2 IMG {}
+    /* SECCIÓN 3 DE SEVICIOS*/
+    .rm_s3ds_cajaIzquierda {
+        width: 100%;
+        height: auto;
+        padding: 0;
+    }
+    .rm_s3ds_cajaIzquierda>div {
+        width: 95%;
+        float: none;
+        margin: auto;
+    }
+    .rm_s3ds_h1 {
+        text-align: center;
+    }
+    .rm_s3ds_cajaIzquierda p {
+        text-align: justify;
+    }
+    .rm_s3ds_cajaDerecha {
+        width: 100%;
+        height: 20em;
+        margin-top: 2em;
+        display: block;
+    }
 }

@@ -2,11 +2,13 @@
     margin: 0;
     padding: 0;
     text-decoration: none;
-    font-family: 'Roboto', sans-serif;
-    font-family: 'Hind', sans-serif !important;
+    /* font-family: 'Roboto', sans-serif; */
+    /* font-family: 'Hind', sans-serif !important; */
+    font-family: 'Hind', sans-serif;
 }
 
 .body100 {
+    font-family: 'Hind', sans-serif;
     width: 100%;
     height: auto;
     font-size: 10px;
@@ -14,6 +16,7 @@
 }
 
 .body {
+    font-family: 'Hind', sans-serif;
     font-size: 10px;
     width: 1400px;
     height: auto;
@@ -144,5 +147,8 @@
         width: 95%;
         height: auto;
         padding: 0;
+    }
+    .linea {
+        margin: auto;
     }
 }

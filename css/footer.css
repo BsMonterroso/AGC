@@ -4,7 +4,8 @@
     text-decoration:none;
     font-family: 'Roboto', sans-serif;
 }*/
-.body-content{
+
+.body-content {
     width: 100%;
     padding: 20px;
     display: flex;
@@ -14,13 +15,13 @@
     line-height: 30px;
 }
 
-.footer{
+.footer {
     width: 100%;
-    background: var(--colorBase) ;
+    background: var(--colorBase);
     display: block;
 }
 
-.contenedor-footer{
+.contenedor-footer {
     width: 95%;
     margin: auto;
     padding: 30px 10px;
@@ -30,13 +31,13 @@
     justify-content: center;
 }
 
-.footer-items{
+.footer-items {
     width: 25%;
     padding: 10px 20px;
     box-sizing: border-box;
 }
 
-.footer-items > h1{
+.footer-items>h1 {
     padding: 10px 0;
     font-size: 25px;
     color: #fff;
@@ -50,7 +51,7 @@
     line-height: 25px;
 }
 
-.footer-items > h2{
+.footer-items>h2 {
     margin: 10px 0;
     color: grey;
     font-size: 16px;
@@ -58,49 +59,50 @@
     text-transform: uppercase;
 }
 
-.border{
+.border {
     height: 2px;
     width: 40px;
     background: #F23827;
 }
-.footer-items > ul{
+
+.footer-items>ul {
     list-style: none;
     color: #fff;
     font-size: 15px;
     letter-spacing: 0.5px;
 }
 
-.footer-items > ul > a{
+.footer-items>ul>a {
     text-decoration: none;
     outline: none;
     color: #fff;
     transition: 0.3s;
 }
 
-.footer-items > ul > a:hover{
+.footer-items>ul>a:hover {
     color: #F23827;
 }
 
-.footer-items >  ul > li{
+.footer-items>ul>li {
     margin: 10px 0px;
     height: auto;
 }
 
-.footer-items > li > i{
+.footer-items>li>i {
     margin-right: 8px;
 }
 
-.social-media{
+.social-media {
     width: 100%;
     color: #fff;
     text-align: center;
 }
 
-.social-media a{
+.social-media a {
     text-decoration: none;
 }
 
-.social-media i{
+.social-media i {
     height: 15px;
     width: 15px;
     margin: 20px 5px;
@@ -111,11 +113,11 @@
     transition: 0.3s;
 }
 
-.social-media i:hover{
+.social-media i:hover {
     background: grey;
 }
 
-.footer-bottom{
+.footer-bottom {
     padding: 10px;
     background-color: #F23827;
     color: #fff;
@@ -124,13 +126,12 @@
 }
 
 @media screen and (max-width: 1000px) {
-    .footer-items{
+    .footer-items {
         width: 50%;
     }
-    
     @media screen and (max-width: 600px) {
-    .footer-items{
-        width: 100%;
-    }
+        .footer-items {
+            width: 100%;
+        }
     }
 }
