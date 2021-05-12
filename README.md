@@ -1,9 +1,9 @@
 # accuracyusa-general_constructor
  1) Pagina web - de Estados Unidos.
- 2 ) https://bsmonterroso.github.io/AGC/ 
+ 2)https://bsmonterroso.github.io/AGC/
 
 <p align="center">
- <img width="100px" src="https://www.paginaeninternet.com/imagen/logo/logo2.svg" align="center" alt="GitHub Readme Stats" />
+ <img width="400px" src="https://www.paginaeninternet.com/imagen/logo/logo2.svg" align="center" alt="GitHub Readme Stats" />
  <h2 align="center">GitHub Readme Stats</h2>
  <p align="center">在你的 README 中获取动态生成的 GitHub 统计信息！</p>
 </p>
