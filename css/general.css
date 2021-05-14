@@ -31,15 +31,15 @@
 
 :root {
     --colorBase: #00355B;
-    --colorBase2: #F1C40F;
+    --colorBase2: #FFEE01;
     --colorBase3: #A6937C;
     --colorBase4: #5D7A8C;
     --colorBase5: #B4C4D9;
     --colorBase6: #fafafa;
     --colorResaltante: #ED1D24;
-    --colorTexto: #272b35;
+    --colorTexto: #6D6D6D;
     --colorTexto2: #9E9E9E;
-    --colorTextoFuerte: #6D6D6D;
+    --colorTextoFuerte: #272b35;
 }
 
 
