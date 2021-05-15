@@ -31,7 +31,7 @@
 
 :root {
     --colorBase: #00355B;
-    --colorBase2: #FFEE01;
+    --colorBase2: #FFF600;
     --colorBase3: #A6937C;
     --colorBase4: #5D7A8C;
     --colorBase5: #B4C4D9;
@@ -39,7 +39,7 @@
     --colorResaltante: #ED1D24;
     --colorTexto: #6D6D6D;
     --colorTexto2: #9E9E9E;
-    --colorTextoFuerte: #272b35;
+    --colorTextoFuerte:  #272b35;
 }
 
 
