@@ -2,27 +2,22 @@
     margin: 0;
     padding: 0;
     text-decoration: none;
-    /* font-family: 'Roboto', sans-serif; */
-    /* font-family: 'Hind', sans-serif !important; */
-    font-family: 'Hind', sans-serif;
+    font-family: 'Tangerine', serif;
 }
 
 .body100 {
-    font-family: 'Hind', sans-serif;
+    font-family: 'Tangerine', serif;
     width: 100%;
     height: auto;
     font-size: 10px;
-    overflow: hidden;
 }
 
 .body {
-    font-family: 'Hind', sans-serif;
+    font-family: 'Tangerine', serif;
     font-size: 10px;
     width: 1400px;
     height: auto;
     margin: auto;
-    overflow: hidden;
-    position: relative;
     box-sizing: border-box;
 }
 
