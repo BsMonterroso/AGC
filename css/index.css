@@ -6,70 +6,15 @@
 }
 
 
-/* SECCIÓN DE SERTIFICADOS DE LA EMPRES */
-
-.rm_linea {
-    width: 100%;
-    height: 2px;
-    margin-bottom: 50px;
-    background-color: var(--colorTexto);
-}
-
-.cajaDeSertificados {
-    padding-top: 20px;
-    padding-bottom: 50px;
-}
-
-.sertificado {
-    width: 48%;
-    float: left;
-}
-
-.imgS1 {
-    width: 200px;
-    display: block;
-    margin: auto;
-}
-
-.imgS2 {
-    width: 350px;
-    display: block;
-    margin: auto;
-}
-
-
 /* --------------------------------------SECCIÓN DE SERVICIOS MAYORES */
 
 .serviciosIndex {
-    padding: 5em 0em 5em 0em;
-}
-
-.cajaMenuOpciones {
-    width: 100%;
-    margin: auto;
-}
-
-.seccionOpciones {
-    width: 30%;
-    overflow: hidden;
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
-    margin: auto;
-}
-
-.liopcion {
-    display: block;
-    float: left;
-    margin-bottom: 3em;
-    font-size: 2em;
-    cursor: pointer;
-    color: #c3c3c3;
+    padding: 3em 0em 0em 0em;
 }
 
 .tituloServiciosIndex {
     width: 100%;
-    color: var(--colorTexto);
+    color: var(--nuevogris);
     font-size: 3.5em;
     text-align: center;
 }
@@ -88,165 +33,107 @@
     color: var(--colorBase2);
 }
 
-.cajaDeServicios {
+.lineaseparacion {
+    height: 2px;
+    width: 75px;
+    background-color: #FFF600;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.padre {
+    width: 100%;
+    height: 500px;
+    background-color: #f8f8f6;
+    margin-top: 0em;
+    padding: 2em 0em 0em 0em;
+    flex-wrap: wrap;
     display: flex;
-    overflow: hidden;
-    width: 100%;
-    flex-direction: row;
-    justify-content: space-between;
+    justify-content: center;
+    margin-bottom: 35px;
 }
 
-.cajaServicio {
-    width: 45em;
-    height: 70em;
-    background-color: #FAFAFA;
+
+/*.hijos {
+    height: 450;
+    width: 80%;
+    background-color: #FFF600;
+    flex-wrap: wrap;
+    justify-content: center;
+    padding: 2em 2em 0em 2em;
+}*/
+
+.hijo1 {
+    height: 350px;
+    width: 25%;
+    background-color: var(--blanco);
+    margin: 0px 15px 0px 0px;
+    border-radius: 10px;
 }
 
-.imgServicio {
-    width: 100%;
-    height: 25em;
+.circulo {
+    background-color: var(--colorcirculos);
+    height: 100px;
+    width: 100px;
+    margin: 25px 0px 0px 25px;
+    border-radius: 50%;
+    justify-content: center;
 }
 
-.imgServicio img {
-    width: 100%;
-    height: 100%;
-    object-fit: cover;
-    object-position: right;
+.circulo img {
+    width: 100px;
+    height: auto;
+    justify-content: center;
 }
 
-.cajaServicio>h2 {
+.hijo1 h2 {
+    text-align: left;
+    margin: 30px 0px 0px 25px;
+    font-size: 2.5em;
+}
+
+.padre p {
+    text-align: left;
+    font-size: 1.5em;
+    margin: 10px 0px 0px 15px;
+    color: var(--colorTexto);
+}
+
+.hijo2 {
+    height: 350px;
+    width: 25%;
+    background-color: var(--blanco);
+    margin: 0px 15px 0px 0px;
+    border-radius: 10px;
+}
+
+.hijo2 h2 {
+    text-align: left;
+    margin: 25px 0px 0px 25px;
+    font-size: 2.5em;
+}
+
+.hijo3 {
+    height: 350px;
+    width: 25%;
+    background-color: var(--blanco);
+    margin: 0px 15px 0px 0px;
+    border-radius: 10px;
+}
+
+.hijo3 h2 {
+    text-align: left;
+    margin: 25px 0px 0px 25px;
+    font-size: 2.5em;
+}
+
+
+/* .cajaServicio>h2 {
     margin: 1em 1em 1em 1em;
     font-size: 2em;
     color: var(--colorBase);
     text-align: start;
-}
-
-.cajaServicio>p {
-    margin: 1em 1em 1em 1em;
-    font-size: 1.7em;
-    color: var(--colorTexto);
-    text-align: justify;
-}
-
-.opcionSelecionado {
-    border-bottom: 1px solid var(--colorBase);
-    color: var(--colorTexto);
-    transition: 1s;
-}
-
-.activado {
-    display: block;
-}
-
-.desactivado {
-    display: none;
-}
-
-
-/*---------------------SECCIÓN DE ANUNCIO GRANDE */
-
-.anuncioGrande {
-    padding-top: 5em;
-    padding-bottom: 5em;
-}
-
-.ag_cajaIzquierda {
-    width: 40%;
-    height: 600px;
-    position: relative;
-    float: left;
-    padding-right: 5em;
-    box-sizing: border-box;
-}
-
-.ag_cajaTitulo {
-    width: 120%;
-    margin-top: 2em;
-    position: absolute;
-    z-index: 100;
-    background-color: rgba(245, 245, 245, 0.5);
-    padding-left: 1em;
-}
-
-.ag_cajaTitulo h2 {
-    font-size: 4.5em;
-}
-
-.ag_cajaIzquierda p {
-    font-size: 2em;
-    margin-top: 10em;
-    margin-left: 0.7em;
-    color: var(--colorTextoFuerte);
-}
-
-.ag_cajaDerecha {
-    width: 60%;
-    height: 600px;
-    background-color: green;
-    float: right;
-}
-
-.ag_cajaDerecha>img {
-    width: 100%;
-    height: 100%;
-    object-fit: cover;
-    object-position: left;
-}
-
-
-/* ------SECCIÓN DE SERVICIOS ESPECIALES */
-
-.bodyServiciosEspeciales {
-    padding: 0;
-    padding-top: 5em;
-    padding-bottom: 10em;
-}
-
-.cajaServiciosEspeciales {
-    display: flex;
-    flex-direction: row;
-    justify-content: space-around;
-    margin-top: 5em;
-    margin-bottom: 5em;
-}
-
-.especialidadIndex {
-    width: 45em;
-    height: 15em;
-    background-color: #FAFAFA;
-}
-
-.icoEspecialidad {
-    width: 12em;
-    float: left;
-    margin-top: 1.5em;
-    margin-left: 1.5em;
-}
-
-.cajaDescripcionServicios {
-    padding: 1em 1em 1em 5em;
-    box-sizing: border-box;
-    float: left;
-}
-
-.tituloEspesialidad {
-    float: left;
-    margin-bottom: 0.1em;
-}
-
-.tituloEspesialidad {
-    font-size: 2em;
-    color: var(--colorTexto);
-}
-
-.pasosServisiosEspeciales {
-    margin-left: 2em;
-}
-
-.pasosServisiosEspeciales>li {
-    color: var(--colorTexto);
-    font-size: 1.5em;
-}
+} */
 
 
 /* ------SECCIÓN DE RESPONSIBE */
@@ -261,6 +148,39 @@
         height: 70em;
         background-color: #FAFAFA;
     }
+    .padre {
+        width: 100%;
+        height: auto;
+        background-color: #f8f8f6;
+        margin-top: 0em;
+        /*padding: 2em 0em 0em 0em;*/
+        display: flex;
+        justify-content: center;
+        align-items: flex-start;
+        flex-direction: row;
+        margin-bottom: 20px;
+    }
+    .hijo1 {
+        height: auto;
+        width: 25%;
+        background-color: var(--blanco);
+        margin: 0px 15px 0px 0px;
+        border-radius: 10px;
+    }
+    .hijo2 {
+        height: auto;
+        width: 25%;
+        background-color: var(--blanco);
+        margin: 0px 15px 0px 0px;
+        border-radius: 10px;
+    }
+    .hijo3 {
+        height: auto;
+        width: 25%;
+        background-color: var(--blanco);
+        margin: 0px 15px 0px 0px;
+        border-radius: 10px;
+    }
 }
 
 @media only screen and (max-width:1000px) {
@@ -268,131 +188,81 @@
         width: 100%;
         height: 60em;
     }
+    .padre {
+        width: 100%;
+        height: auto;
+        background-color: #f8f8f6;
+        margin-top: 0em;
+        padding: 2em 0em 0em 0em;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        align-items: center;
+    }
+    .hijo1 {
+        height: auto;
+        width: 25%;
+        background-color: var(--blanco);
+        margin: 0px 15px 0px 0px;
+        border-radius: 10px;
+    }
+    .hijo2 {
+        height: auto;
+        width: 25%;
+        background-color: var(--blanco);
+        margin: 0px 15px 0px 0px;
+        border-radius: 10px;
+    }
+    .hijo3 {
+        height: auto;
+        width: 25%;
+        background-color: var(--blanco);
+        margin: 0px 15px 0px 0px;
+        border-radius: 10px;
+    }
 }
 
 
 /* -----------SECCIÓN DE RESPONSI MOVIL */
 
 @media only screen and (max-width:767px) {
-    .serviciosIndex {
-        width: 100%;
-    }
-    .descripcionServiciosIndex {
-        width: 100%;
-    }
-    .cajaDeServicios {
-        width: 100%;
-        flex-direction: column;
-        padding: 0;
-    }
-    .cajaServicio {
-        margin: auto;
-        width: 90%;
-        height: 60em;
-    }
-    .cajaServicio>p {
-        margin: 1em 1em 1em 1em;
-        font-size: 1.3em;
-    }
-    .cajaServiciosEspeciales {
-        flex-direction: column;
-        margin-bottom: 3em;
-    }
-    .especialidadIndex {
-        margin: auto;
-        margin-bottom: 5em;
-    }
-    /* MENU DE SERVICIOS  */
-    .cajaMenuOpciones {
-        width: 100%;
-    }
-    .seccionOpciones {
-        width: 100%;
-        margin-bottom: 5em;
-        overflow: hidden;
-        display: flex;
-        flex-direction: row;
-        justify-content: space-evenly;
-    }
-    .liopcion {
-        display: block;
-        float: none;
-        margin: 0;
-        font-size: 2em;
-        cursor: pointer;
-        color: #c3c3c3;
-    }
-    /* SECCIÍON DE ANUNCIO GRANDE */
-    .anuncioGrande {
-        padding-top: 0em;
-        padding-bottom: 0em;
-    }
-    .anucioGrandeConfig {
-        padding: 0;
-    }
-    .ag_cajaIzquierda {
-        margin-left: 1.5em;
+    .padre {
         width: 100%;
         height: auto;
-        position: relative;
-        float: none;
-        padding-right: 5em;
-        box-sizing: border-box;
-    }
-    .ag_cajaTitulo {
-        width: 100%;
-        text-align: center;
-        margin: auto;
-        display: block;
+        background-color: #f8f8f6;
         margin-top: 0em;
-        position: static;
-        z-index: 0;
-        background-color: rgba(245, 245, 245, 0.5);
-        padding-left: 0em;
+        padding: 2em 0em 0em 0em;
+        display: flex;
+        flex-wrap: wrap;
+        align-items: center;
+        flex-direction: column;
+        margin-bottom: 35px;
     }
-    .ag_cajaIzquierda p {
-        margin: 0;
-        padding: 0;
-        width: 100%;
-        margin: auto;
+    .padre p {
+        text-align: left;
         font-size: 2em;
-        margin-top: 1em;
-        text-align: center;
-        color: var(--colorTextoFuerte);
+        margin: 10px 0px 0px 15px;
+        color: var(--colorTexto);
     }
-    .ag_cajaDerecha {
+    .hijo1 {
+        height: auto;
         width: 100%;
-        height: 600px;
-        background-color: green;
-        float: none;
+        background-color: var(--blanco);
+        margin: 0px 15px 0px 0px;
+        border-radius: 10px;
     }
-    /* SECCIÓN DE SERTIFICADOS DE LA EMPRES */
-    .rm_linea {
+    .hijo2 {
+        height: auto;
         width: 100%;
-        height: 2px;
-        margin-bottom: 15px;
-        background-color: var(--colorTexto);
+        background-color: var(--blanco);
+        margin: 20px 15px 0px 0px;
+        border-radius: 10px;
     }
-    .cajaDeSertificados {
+    .hijo3 {
+        height: auto;
         width: 100%;
-        display: flex;
-        justify-content: center;
-        flex-flow: column;
-    }
-    .sertificado {
-        width: 100%;
-        display: flex;
-        justify-content: center;
-    }
-    .imgS1 {
-        width: 200px;
-        display: block;
-        margin: auto;
-        padding-bottom: 1em;
-    }
-    .imgS2 {
-        width: 350px;
-        display: block;
-        margin: auto;
+        background-color: var(--blanco);
+        margin: 0px 15px 0px 0px;
+        border-radius: 10px;
     }
 }
