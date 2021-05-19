@@ -22,7 +22,7 @@
 }
 
 .contenedor-footer {
-    width: 95%;
+    width: 80%;
     margin: auto;
     padding: 20px 10px;
     display: flex;
@@ -93,18 +93,8 @@
 }
 
 .footer-items .img {
-    padding-left: 2px;
+    padding-left: 0px;
 }
-
-
-/*.footer-bottom {
-    padding: 10px;
-    background-color: #4B4B4B;
-    color: #fff;
-    font-size: 14px;
-    text-align: center;
-}
-*/
 
 .color-amarillo {
     height: 50px;
